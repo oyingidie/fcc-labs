@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Survey Form - Food Delivery Service</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="title">Food Delivery Service Survey Form</h1>
+  <p id="description" class="survey-description">Thank you for taking the time to help cook a sumptuous experience</p>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name <input id="name" type="text" placeholder="Your full name" required /></label>
+    <label id="email-label" for="email">Email <input id="email" type="email" placeholder="Your email address" required /></label>
+    <label id="number-label" for="number">Age <input id="number" type="number" min="18" max="99" placeholder="Your age as at last birthday" required /></label>
+    <label for="personality">Which personality best describes your passion for food?
+      <select id="personality">
+        <option value="">Select a personality</option>
+        <option value="foodie">Foodie (eats, blogs, writes, snaps...)</option>
+        <option value="gastronaut">Gastronaut (just wants to eat good food)</option>
+        <option value="chef-de-cuisine">Chef de Cuisine (critiques the details)</option>
+        <option value="grazer">Grazer (munches on-the-go)</option>
+        <option value="fit-fam">Dr Fit-Fam (takes health seriously)</option>
+        <option value="peter-pan">Peter Pan (cares less about where)</option>
+        <option value="home-alone">Home Alone (eats only at home)</option>
+      </select>
+    </label>
+    <label>What meal of the day are you less likely to order online?</label>
+    <label><input id="breakfast" type="radio" name="meal" value="breakfast" checked />Breakfast</label>
+    <label><input id="lunch" type="radio" name="meal" value="lunch" />Lunch</label>
+    <label><input id="dinner" type="radio" name="meal" value="dinner" />Dinner</label>
+    <label class="app-feature" for="dropdown">What feature in a food delivery app do you consider the most important?
+      <select id="dropdown">
+        <option value="">Select an option</option>
+        <option value="1">Push Notifications</option>
+        <option value="2">Search Filters</option>
+        <option value="3">Intuitive Menu Display</option>
+        <option value="4">Convenient & Secure Payment Options</option>
+        <option value="5">Real-time Order Tracking & History</option>
+        <option value="6">In-App Live Support</option>
+        <option value="7">Promos, Rewards, & Discounts</option>
+        <option value="8">Ratings & Reviews</option>
+        <option value="9">Other</option>
+      </select>
+    </label>
+    <label>Which of these platforms have you interacted with?</label>
+    <label><input type="checkbox" name="delivery-platform" value="area-chops" /> Area Chops</label>
+    <label><input type="checkbox" name="delivery-platform" value="bolt-food" /> Bolt Food</label>
+    <label><input type="checkbox" name="delivery-platform" value="chowdeck" /> Chowdeck</label>
+    <label><input type="checkbox" name="delivery-platform" value="eden-life" /> Eden Life</label>
+    <label><input type="checkbox" name="delivery-platform" value="food-court" /> Food Court</label>
+    <label><input type="checkbox" name="delivery-platform" value="glovo" /> Glovo</label>
+    <label><input type="checkbox" name="delivery-platform" value="gokada" /> Gokada (GFood)</label>
+    <label><input type="checkbox" name="delivery-platform" value="jumia-food" /> Jumia Food</label>
+    <label><input type="checkbox" name="delivery-platform" value="uber-eats" /> Uber Eats</label>
+    <label class="comments">Is there anything more you'd like to share with us?
+      <textarea type="textarea" rows="6≠" cols="48" placeholder="Enter them here..."></textarea>
+    </label>
+    <button id="submit" type="submit" form="survey-form">Submit</button>
+  </form>
+  <footer>
+    <p>Designed in <a href="https://www.freecodecamp.org">freeCodeCamp</a> by Oyinkansola Adebayo</p>
+  </footer>
+</body>
+
+</html>
