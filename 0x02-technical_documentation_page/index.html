@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="search-bar">
+      <form method="post">
+        <input type="text" placeholder="Search...">
+        <input type="submit" value="Go">
+      </form>
+    </header>
+    <nav id="navbar">
+      <header>
+        <img id="logo" alt="C (Programming Language) Logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" >
+        <span>Documentation</span>
+        </header>
+      <a class="nav-link" href="#introduction">Introduction</a>
+      <a class="nav-link" href="#c_vs_c++_vs_c#_vs_objective-c">C vs C++ vs C# vs Objective-C</a>
+      <a class="nav-link" href="#hello,_world!">Hello, World!</a>
+      <a class="nav-link" href="#data_types">Data Types</a>
+      <a class="nav-link" href="#input/output">Input/Output</a>
+      <a class="nav-link" href="#variables_and_constants">Variables and Constants</a>
+      <a class="nav-link" href="#operators">Operators</a>
+      <a class="nav-link" href="#conditionals">Conditionals</a>
+      <a class="nav-link" href="#loops">Loops</a>
+      <a class="nav-link" href="#functions">Functions</a>
+      <a class="nav-link" href="#arrays_and_strings">Arrays and Strings</a>
+      <a class="nav-link" href="#pointers">Pointers</a>
+      <a class="nav-link" href="#structures">Structures</a>
+      <a class="nav-link" href="#memory_management">Memory Management</a>
+      <a class="nav-link" href="#reference">Reference</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="introduction">
+        <header>Introduction</header>
+        <p>C is a procedural programming language initially developed by Dennis Ritchie in the year 1972 at Bell Laboratories of AT&T Labs. It was mainly developed as a system programming language to write the UNIX operating system.</p>
+        <ul>
+          <li class="list">The main features of the C language include:</li>
+          <ul>
+            <li id="listed">General Purpose and Portable</li>
+            <li id="listed">Low-level Memory Access</li>
+            <li id="listed">Fast Speed</li>
+            <li id="listed">Robust and Rich Libraries</li>
+            <li id="listed">Clean Syntax</li>
+            <li id="listed">Easy to Extend</li>
+          </ul>
+        </ul>
+        <p>These features make the C language suitable for system programming like an operating system or compiler development.</p>
+        <p class="sub-heading">Why Learn C?</p>
+        <p>Many later languages have borrowed syntax/features directly or indirectly from the C language. Like syntax of Java, PHP, JavaScript, and many other languages are mainly based on the C language. C++ is nearly a superset of C language (Only a few programs may compile in C, but not in C++).</p>
+        <p>C language is faster than other programming languages like Java and Python. It can handle low-level programming and we can compile the C code in a variety of computer platforms.</p>
+        <p>So,  if a person learns C programming first, it will help him to learn any modern programming language as well. As learning C help to understand a lot of the underlying architecture of the operating system. Like pointers, working with memory locations, etc.</p>
+        <p class="sub-heading">Programming in C</p>
+        <p>C is a mid-level programming language, also called a compiler language. To embark on your C programming journey, creating a local development environment becomes an indispensable initial step. This involves configuring your computer to compile and run C programs simultaneously. When a C program is written, there is need to first compile it using a compiler, i.e. convert it into a machine-readable object file, before we can run the generated executable.</p>
+        <p>This compilation process is divided into pre-processing, compiling, assembling, and linking.</p>
+        <ul>
+          <li>Preprocessor takes the source code – <em>'.c'</em> file – as input and generates an expanded source code with <em>'.i'</em> extension</li>
+          <li>Compiler converts the pre-processed code to assembly code – <em>'.s'</em> file</li>
+          <li>Assembler converts the assembly code to object code – <em>'.obj'</em> or <em>'.o'</em> file extension</li>
+          <li>Linker combines the object code of the program with the object code of library files having <em>'.lib'</em> or <em>'.a'</em> extension to generate the executable code – <em>'.exe'</em> – sometimes with the filename <em>"a.out"</em></li>
+        </ul>
+        <p>A local environment ensures that you have the necessary tools and resources at your disposal, facilitating a smooth coding experience. Integratеd Development Environments (IDEs) play a pivotal role in streamlining the software development process.</p>
+        <p>Onlinе IDEs such as the ones provided by <a id="virtual-env" href="https://ide.geeksforgeeks.org/">GeeksforGeeks</a> and <a id="virtual-env" href="https://cs50.dev/">Harvard CS50x</a> offer a convenient option for those who choose not to set up a local environment.</p>
+        <p>For a comprehensive C development environment on your local machine, two fundamental components are necessary: a text editor and a compiler.</p>
+        <ul>
+          <li class="list"><strong>Text editors</strong> are essential programs used to edit or write text, including C programs. In the context of C programming, it’s crucial to understand that while the typical extension for a text file is <em>(.txt)</em>, files containing C programs should be saved with a <em>'.c'</em> extension. Similarly, the <em>'.cpp'</em> extension is also acceptable for C++ programs. Files with extensions <em>'.cpp'</em> and <em>'.c'</em> are termed source code files. These extensions aid the compiler in recognizing that the file contains a C or C++ program.</li>
+          <ul>
+            <p>Here are some popular text editors you can install and set up as a local environment to write C:</p>
+            <li id="listed"><a class="text-editor" href="https://code.visualstudio.com/download">VS Code</a> for Windows, Linux, and macOS</li>
+            <li id="listed"><a class="text-editor" href="https://www.vim.org/download.php">Vim</a> for Windows, Linux, and macOS</li>
+            <li id="listed"><a class="text-editor" href="https://www.codeblocks.org/downloads/binaries/">Code::Blocks</a> for Windows, Linux, macOS</li>
+            <li id="listed"><a class="text-editor" href="https://developer.apple.com/xcode/">Xcode</a> for macOS</li>
+          </ul>
+          <li><strong>C compiler</strong> is a software that translates human-readable C language code into machine code or an intermediate code that can be executed by a computer’s central processing unit (CPU). There are many C compilers available in the market, such as GNU Compiler Collection (GCC), Microsoft Visual C++ Compiler, Clang, Intel C++ Compiler, and TinyCC (TCC).</li>
+        </ul>
+        <p class="sub-heading">Components and Language Structure</p>
+        <p>We can assess the basic syntax structure of a C program. By structure, we mean that any C program can be written in this language structure only. Writing the program in any other structure will hence lead to a compilation error. The structure is as follows:</p>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="define-code">int main()</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">printf();</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p class="sub-heading">Applications of C</p>
+        <p>C was known as a system development language because the code written in C runs as fast as the code written in assembly language. The use of the C programming language can be found in:</p>
+        <ul>
+          <li>Operating systems: C is widely used for developing operating systems such as Unix, Linux, and Windows.</li>
+          <li>Embedded systems: C is a popular language for developing embedded systems such as microcontrollers, microprocessors, and other electronic devices.</li>
+          <li>System software: C is used for developing system software such as device drivers, compilers, and assemblers.</li>
+          <li>Networking: C is widely used for developing networking applications such as web servers, network protocols, and network drivers.</li>
+          <li>Database systems: C is used for developing database systems such as Oracle, MySQL, and PostgreSQL.</li>
+          <li>Gaming: C is often used for developing computer games due to its ability to handle low-level hardware interactions.</li>
+          <li>Artificial Intelligence: C is used for developing artificial intelligence and machine learning applications such as neural networks and deep learning algorithms.</li>
+          <li>Modern applications: C is used for developing modern programs and utilities e.g. scientific applications such as simulation software and numerical analysis tools, financial applications such as stock market analysis and trading systems, etc.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="c_vs_c++_vs_c#_vs_objective-c">
+        <header>C vs C++ vs C# vs Objective-C</header>
+        <p>While these programming languages can be said to belong to the same family, they are nonetheless different. C was the first of these languages, and the rest either extended from it or are based on it.</p>
+        <ul>
+          <li>C++ is a general-purpose programming language created by Bjarne Stroustrup in 1985 to extend the C language. While the other members of the C family have replaced C in some applications, C++ is the most common replacement for C. In fact, it’s a direct replacement in most cases, often used where performance is at a premium and low-level control over the system’s resources is needed, e.g. in developing operating systems, video games, database software, web browsers, and embedded systems.</li>
+          <li>C# was initially a closed-source programming language designed by Microsoft to run on Windows. Released in 2000, it was used to develop desktop applications for the Windows operating system and server-side applications for Windows servers. But in 2014, Microsoft released C# as free and open-source and offered builds for both Linux and Mac OSX. It’s since found use in game development and web service development, making C# a widely used language on all popular operating systems.</li>
+          <li>Objective-C is a programming language that was developed in 1984 by Brad Cox and Tom Love who saw the need to add the object-oriented paradigm to the C programming language but used the Smalltalk language as their guide. The rights to Objective-C were then acquired by a company called NeXT, which used it in a custom programming platform called OpenStep. In 1996, Apple acquired NeXT and used OpenStep in its new operating system, Mac OSX. By 2014, Apple released Swift which is interoperable with Objective-C, and much faster and easier to write. Objective-C has since been in a slow decline.</li>
+        </ul>
+        <p>Early languages used a procedural programming paradigm, i.e. the program’s functions contained a set of steps that were executed in a specific order. Functions can be reused and can also call other functions or even themselves. C is also a procedural programming language. Object-oriented programming (OOP) is another paradigm that allows you to create a `class` structure that represents a real-world object with variables and methods attached to it. This structure can be used repeatedly to create copies of itself.</p>
+        <p>C++, C#, and Objective-C code can all be written in a procedural and/or object-oriented programming style.</p>
+        <p>C is still a popular language, especially with embedded systems and places where object-oriented programming isn’t needed but most developers opt to use C++ instead since it’s a superset of C. If you want to use a higher-level programming language than C++ and plan on creating Windows desktop applications, video games, mobile apps, or web services, then C# is an excellent choice. Swift, used in writing code for Apple products, has mostly replaced Objective-C — even Apple recommends using it.</p>
+      </section>
+      <section class="main-section" id="hello,_world!">
+        <header>Hello, World!</header>
+        <p>The "Hello, World!" program is the first step towards learning any programming language and also one of the simplest programs you will learn. To print the "Hello, World!", we can use the <em class="function">printf</em> function from the <em>stdio.h</em> library that prints the given string on the screen.</p>
+        <p>Once executed, the C program below displays "Hello, World!" followed by a new line:</p>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Entry point</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">printf("Hello, World!\n");</code></pre>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>Hello, World!</code></pre>
+        </div>
+        <p>We can use many different methods apart from the <em>printf()</em> to print “Hello, World!” in C. Some of them are given below:</p>
+        <ul>
+          <li>Using <em class="function">puts()</em> function</li>
+        </ul>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Entry point</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">puts("Hello, World!");</code></pre>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>Hello, World!</code></pre>
+        </div>
+        <ul>
+          <li>Character-by-character printing using <em class="function">putchar()</em></li>
+        </ul>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Entry point</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">char *str = "Hello, World!\n";</code></pre>
+          <pre><code class="indent">while (*str) {</code></pre>
+          <pre><code class="double-indent">putchar(*str++);</code></pre>
+          <pre><code class="indent">}</code></pre>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>Hello, World!</code></pre>
+        </div>
+        <ul>
+          <li>bulleted details, maybe...</li>
+        </ul>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Entry point</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">printf("Hello, World!\n");</code></pre>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>Hello, World!</code></pre>
+        </div>
+        <p>These are various ways to write the “Hello, World!” program in C. Each example demonstrates different aspects and functions of the language, providing multiple approaches for beginners to understand and explore.</p>
+      </section>
+    </main>
+    <footer>
+    <p>Designed in <a href="https://www.freecodecamp.org">freeCodeCamp</a> by</p>
+    <p>Oyinkansola Adebayo</p>
+  </footer>
+  </body>
+</html>
