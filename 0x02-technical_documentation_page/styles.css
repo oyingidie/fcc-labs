@@ -1,0 +1,286 @@
+* {
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: -0.25px;
+  word-spacing: -2px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  left: 0;
+  font-size: 18.6px;
+  line-height: 1.6;
+}
+
+.search-bar {
+  width: 100%;
+  height: 96px;
+}
+
+.search-bar,
+#navbar header {
+  background-color: #000;
+  height: 96px;
+}
+
+.search-bar,
+#navbar header,
+#logo {
+  margin-top: 0;
+  display: inline-flex;
+}
+
+form {
+  position: absolute;
+  top: 28;
+  right: 28;
+}
+input {
+  min-height: 2em;
+  padding: 4px;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+input[type="text"] {
+  width: 18em;
+  padding-left: 18px;
+  font-style: italic;
+}
+
+input[type="submit"] {
+  width: 6em;
+  text-align: center;
+  display: inline;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 368px;
+  height: 100%;
+  background-color: #eee;
+}
+
+#navbar header {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+}
+
+#logo {
+  width: 1.2em;
+  height: 1.4em;
+  filter: grayscale(100%);
+  position: relative;
+  top: 6;
+  left: 18;
+}
+
+span {
+  position: relative;
+  left: 36;
+}
+
+nav > header,
+.nav-link {
+  padding: 0.72em 16px;
+  width: 368px;
+}
+
+.nav-link {
+  display: block;
+  font-size: 20.2px;
+  text-decoration: none;
+  color: #222;
+  margin: 2.4px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.nav-link:hover {
+  background-color: #333;
+  color: #eee;
+  border-bottom: none;
+}
+
+#main-doc,
+footer {
+  margin-left: 396px;
+  margin-right: 1.6em;
+  text-align: justify;
+}
+
+.main-section header {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 2em;
+}
+
+#introduction {
+  margin-top: -2.4em;
+}
+
+.main-section p,
+li {
+  margin: 24px auto;
+}
+
+.sub-heading {
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.function {
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 32px;
+}
+
+.list {
+  margin-bottom: 0;
+}
+
+#listed {
+  list-style-type: none;
+  margin: 10px 0 10px 3em;
+}
+
+#listed::before {
+  content: "- ";
+}
+
+#output,
+#syntax {
+  margin-left: 8em;
+  margin-bottom: -1em;
+}
+
+.source-code {
+  background-color: #555;
+  color: #ddd;
+  margin: 1.6em 8em;
+  padding: 18px;
+  width: auto;
+  border-radius: 8px;
+}
+
+pre {
+  white-space: normal;
+}
+
+#output {
+  margin-left: 8em;
+  margin-bottom: -1em;
+}
+
+.terminal-output,
+.code-syntax {
+  background-color: #ddd;
+  color: #555;
+  margin: 1.6em 8em;
+  padding: 18px;
+  width: auto;
+  border-radius: 14px;
+}
+
+.code-syntax {
+  font-weight: bold;
+}
+
+.define-code {
+  font-weight: bold;
+}
+
+.comment {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.betty {
+  margin-left: 0.6em;
+}
+
+.indent {
+  margin-left: 2.4em;
+}
+
+.double-indent {
+  margin-left: 4.8em;
+}
+
+#virtual-env,
+.text-editor {
+  color: #888;
+  font-weight: bold;
+}
+
+table {
+  border: 2px solid #aaa;
+  margin: auto;
+  border-collapse: collapse;
+  margin-bottom: 2.1em;
+}
+
+th,
+td {
+  padding: 0.8em;
+  border: 1px solid #aaa;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+  border-color: #aaa;
+}
+
+#constants-literals {
+  width: 70%;
+}
+
+#variables-constants {
+  text-align: center;
+  width: 85%;
+  border: none;
+}
+
+#variables,
+#constants,
+.variable,
+.constant {
+  border: none;
+}
+
+#variables-constants > tbody > tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+footer {
+  text-align: right;
+  margin: 2.2em 1.8em;
+  padding-top: 3em;
+  font-size: 16px;
+}
+
+.reference,
+.text-editor {
+  text-decoration: none;
+}
+
+footer > p > a,
+.reference {
+  color: #aaa;
+}
