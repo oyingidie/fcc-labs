@@ -153,12 +153,12 @@ ul {
   margin-bottom: 0;
 }
 
-#listed {
+.listed {
   list-style-type: none;
   margin: 10px 0 10px 3em;
 }
 
-#listed::before {
+.listed::before {
   content: "- ";
 }
 
@@ -247,7 +247,8 @@ th {
   border-color: #aaa;
 }
 
-#constants-literals {
+#constants-literals,
+#malloc-calloc {
   width: 70%;
 }
 
