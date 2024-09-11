@@ -781,15 +781,158 @@
     </section>
     <section class="main-section" id="loops">
       <header>Loops</header>
-      <p>paragraph for each module starts here</p>
-      <p>another paragraph [maybe...]</p>
-      <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
-        <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
-      </div>
+      <p>Loops in programming are used to repeat a block of code until the specified condition is met. A loop statement allows programmers to execute a statement or group of statements multiple times without repetition of code.</p>
       <ul>
-        <li>bulleted details, maybe...</li>
+        <li class="list">There are mainly two types of loops in C programming:</li>
+        <ul>
+          <li class="listed"><strong>Entry controlled loops</strong> where the test condition is checked before entering the main body of the loop, examples are the <em>for</em> loop and the <em>while</em> loop.</li>
+          <li class="listed"><strong>Exit Controlled loops</strong> where the test condition is evaluated at the end of the loop body. The loop body will execute at least once, irrespective of whether the condition is true or false, e.g. the <em>do-while</em> loop.</li>
+        </ul>
+        <li><strong><em>for</em> loop </strong>in C programming is a repetition control structure that allows programmers to write a loop that will be executed a specific number of times. <em>for</em> loop enables programmers to perform <em>n</em> number of steps together in a single line.</li>
+        <p id="syntax">Syntax:</p>
+        <div class="code-syntax">
+          <pre><code>for (initialisation; test_expression; update_expression)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="comment indent">/* Body of the loop to execute */</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p>A loop variable is used to control the loop. Firstly, we initialise the loop variable with some value, then check its test condition. If the statement is true then control will move to the body and the body of the <em>for</em> loop will be executed. These steps will be repeated until the exit condition becomes true. If the test condition is false, the loop stops.</p>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Illustrates the operation of the for loop</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0 i.e. "SUCCESS"</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">int i;</code></pre>
+          <br>
+          <pre><code class="indent">for (i = 1; i <= 5; i++)</code></pre>
+          <pre><code class="indent">{</code></pre>
+          <pre><code class="double-indent">printf( "This is a for loop; execution %d.\n", i);</code></pre>
+          <pre><code class="indent">}</code></pre>
+
+          <br>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>This is a for loop; execution 1.</code></pre>
+          <pre><code>This is a for loop; execution 2.</code></pre>
+          <pre><code>This is a for loop; execution 3.</code></pre>
+          <pre><code>This is a for loop; execution 4.</code></pre>
+          <pre><code>This is a for loop; execution 5.</code></pre>
+        </div>
+        <li><strong><em>while</em> loop </strong>does not depend on the number of iterations. In <em>for</em> loop the number of iterations is previously known but in the <em>while</em> loop, the execution is terminated on the basis of the test condition. If the test condition becomes false, the loop breaks otherwise its body is executed.</li>
+        <p id="syntax">Syntax:</p>
+        <div class="code-syntax">
+          <pre><code>initialisation;</code></pre>
+          <br>
+          <pre><code>while (test_expression)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="comment indent">/* Body of the loop to execute */</code></pre>
+          <pre><code class="indent">update_expression;</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p>Here's a code sample of the <em>while</em> loop:</p>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Illustrates the operation of the while loop</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0 i.e. "SUCCESS"</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">int i = 3;</code></pre>
+          <br>
+          <pre><code class="indent">while (i < 6)</code></pre>
+          <pre><code class="indent">{</code></pre>
+          <pre><code class="double-indent">printf( "...Execution %d of this while loop...\n", i);</code></pre>
+          <pre><code class="double-indent">i++;</code></pre>
+          <pre><code class="indent">}</code></pre>
+
+          <br>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>...Execution 3 of this while loop...</code></pre>
+          <pre><code>...Execution 4 of this while loop...</code></pre>
+          <pre><code>...Execution 5 of this while loop...</code></pre>
+        </div>
+        <li>The <strong><em>do-while</em> loop </strong>in C programming is a repetition control structure that allows programmers to write a loop that will be executed a specific number of times. <em>for</em> loop enables programmers to perform <em>n</em> number of steps together in a single line.</li>
+        <p id="syntax">Syntax:</p>
+        <div class="code-syntax">
+          <pre><code>initialisation;</code></pre>
+          <br>
+          <pre><code>do</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="comment indent">/* Body of the loop to execute */</code></pre>
+          <pre><code class="indent">update_expression;</code></pre>
+          <pre><code>} while (test_expression);</code></pre>
+        </div>
+        <p>Here's a code sample of the <em>do-while</em> loop:</p>
+        <div class="source-code">
+          <pre><code>#include < stdio.h ></code></pre>
+          <br>
+          <pre><code class="comment">/**</code></pre>
+          <pre><code class="comment"> * main - Illustrates the operation of the do-while loop</code></pre>
+          <pre><code class="comment"> *</code></pre>
+          <pre><code class="comment"> * Return: Always 0 i.e. "SUCCESS"</code></pre>
+          <pre><code class="comment"> */</code></pre>
+          <pre><code class="define-code">int main(void)</code></pre>
+          <pre><code>{</code></pre>
+          <pre><code class="indent">int i = 0;</code></pre>
+          <br>
+          <pre><code class="indent">do</code></pre>
+          <pre><code class="indent">{</code></pre>
+          <pre><code class="double-indent">printf( "Number %d do-while loop.\n", i);</code></pre>
+          <pre><code class="double-indent">i++;</code></pre>
+          <pre><code class="indent">} while (i < 3);</code></pre>
+
+          <br>
+          <pre><code class="indent">return (0);</code></pre>
+          <pre><code>}</code></pre>
+        </div>
+        <p id="output">Output:</p>
+        <div class="terminal-output">
+          <pre><code>Number 0 do-while loop.</code></pre>
+          <pre><code>Number 1 do-while loop.</code></pre>
+          <pre><code>Number 2 do-while loop.</code></pre>
+        </div>
+      </ul>
+      <p class="sub-heading">Loop Control Statements</p>
+      <p>Loop control statements in C programming are used to change execution from its normal sequence.</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><em class="function">break</em> statement</td>
+            <td>Used to terminate the switch and loop statement. It transfers execution to the statement immediately following the loop or switch. </td>
+          </tr>
+          <tr>
+            <td><em class="function">continue</em> statement</td>
+            <td>Skips the remainder body and immediately resets its condition before reiterating it.</td>
+          </tr>
+          <tr>
+            <td><em class="function">goto</em> statement</td>
+            <td>Transfers the control to the labeled statement.</td>
+          </tr>
+        </tbody>
+      </table>
+      <ul>
+        <li>An <strong>infinite loop</strong> is executed when the test expression never becomes false and the body of the loop is executed repeatedly. A program is stuck in an infinite loop when the condition is always true. Mostly this is an error that can be resolved by using loop control statements.</li>
       </ul>
     </section>
     <section class="main-section" id="functions">
@@ -845,16 +988,74 @@
     </section>
     <section class="main-section" id="memory_management">
       <header>Memory Management</header>
-      <p>paragraph for each module starts here</p>
-      <p>another paragraph [maybe...]</p>
-      <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
-        <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
-      </div>
+      <p>A typical memory representation/layout of a running C program consists of the following sections:</p>
       <ul>
-        <li>bulleted details, maybe...</li>
+        <li><strong>Text Segment</strong>, also known as a code segment or simply as text, is one of the sections of a program in an object file or in memory, which contains executable instructions. As a memory region, a text segment may be placed below the heap or stack in order to prevent heaps and stack overflows from overwriting it. </li>
+        <p>Usually, the text segment is sharable so that only a single copy needs to be in memory for frequently executed programs, such as text editors, the C compiler, the shells, and so on. Also, the text segment is often read-only, to prevent a program from accidentally modifying its instructions.</p>
+        <li><strong>Initialised Data Segment</strong>, usually called simply the Data Segment. A data segment is a portion of the virtual address space of a program, which contains the global variables and static variables that are initialised by the programmer.</li>
+        <p>Note that, the data segment is not read-only, since the values of the variables can be altered at run time. This segment can be further classified into the initialised read-only area and the initialised read-write area.</p>
+        <li><strong>Uninitialised Data Segment</strong> often called the "bss" segment, named after an ancient assembler operator that stood for "block started by symbol." Data in this segment is initialised by the compiler to arithmetic 0 before the program starts executing uninitialised data starts at the end of the data segment and contains all global variables and static variables that are initialized to zero or do not have explicit initialization in source code.</li>
+        <li><strong>Stack</strong>, where automatic variables are stored, along with information that is saved each time a function is called. Each time a function is called, the address of where to return to and certain information about the caller’s environment, such as some of the machine registers, are saved on the stack. The newly called function then allocates room on the stack for its automatic variables. This is how recursive functions in C can work. Each time a recursive function calls itself, a new stack frame is used, so one set of variables doesn’t interfere with the variables from another instance of the function.</li>
+        <p>The stack area contains the program stack, a LIFO structure, typically located in the higher parts of memory. On the standard PC x86 computer architecture, it grows toward address zero; on some other architectures, it grows in the opposite direction. A "stack pointer" register tracks the top of the stack; it is adjusted each time a value is "pushed" onto the stack. The set of values pushed for one function call is termed a "stack frame"; A stack frame consists, at minimum, of a return address.</p>
+        <li><strong>Heap</strong> is the segment where dynamic memory allocation usually takes place. The heap area begins at the end of the BSS segment and grows to larger addresses from there. The Heap area is managed by <em>malloc, realloc</em>, and <em>free</em>, which may use the <em>brk</em> and <em>sbrk</em> system calls to adjust its size (note that the use of <em>brk/sbrk</em> and a single "heap area" is not required to fulfill the contract of <em>malloc/realloc/free</em>; they may also be implemented using mmap to reserve potentially non-contiguous regions of virtual memory into the process' virtual address space). The Heap area is shared by all shared libraries and dynamically loaded modules in a process.</li>
       </ul>
+      <p class="sub-heading">Memory Leaks</p>
+      <p>A memory leak occurs when programmers create a memory in a heap and forget to delete it. The consequence of the memory leak is that it reduces the performance of the computer by reducing the amount of available memory. Eventually, in the worst case, too much of the available memory may become allocated, all or part of the system or device stops working correctly, the application fails, or the system slows down vastly.</p>
+      <ul>
+        <li class="list">Memory leaks are particularly serious issues for programs like daemons and servers which by definition never terminate. Some causes of memory leaks are listed below:</li>
+        <li class="listed">When dynamically allocated memory is not freed up by calling <em>free</em>.</li>
+        <li class="listed">When track of pointers that references to the allocated memory is lost then it may happen that memory is not freed up.</li>
+        <li class="listed">When the program terminates abruptly and the allocated memory is not freed or if any part of code prevents the call of <em>free</em> then memory leaks may happen.</li>
+      </ul>
+      <p>To avoid memory leaks, memory allocated on the heap should always be freed when no longer needed.</p>
+      <p class="sub-heading"><em>malloc()</em> vs <em>calloc()</em></p>
+      <p>The functions <em>malloc()</em> and <em>calloc()</em> are library functions that allocate memory dynamically. Dynamic means the memory is allocated during runtime (execution of the program) from the heap segment.</p>
+      <table id="malloc-calloc">
+        <thead>
+          <tr>
+            <th>malloc()...</th>
+            <th>calloc()...</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>a function that creates one block of memory of a fixed size</td>
+            <td>a function that assigns a specified number of blocks of memory to a single variable</td>
+          </tr>
+          <tr>
+            <td>only takes one argument</td>
+            <td>takes two arguments</td>
+          </tr>
+          <tr>
+            <td>faster than <em>calloc()</em></td>
+            <td>slower than <em>malloc()</em></td>
+          </tr>
+          <tr>
+            <td>has high time efficiency</td>
+            <td>has low time efficiency</td>
+          </tr>
+          <tr>
+            <td>used to indicate memory allocation</td>
+            <td>used to indicate contiguous memory allocation</td>
+          </tr>
+          <tr>
+            <td>does not initialise the memory to zero</td>
+            <td>initialises the memory to zero</td>
+          </tr>
+          <tr>
+            <td>does not add any extra memory overhead</td>
+            <td>adds some extra memory overhead</td>
+          </tr>
+        </tbody>
+      </table>
+      <p id="syntax">Syntax:</p>
+      <div class="code-syntax">
+        <pre><code class="comment">/* for the malloc function */</code></pre>
+        <pre><code class="indent">void* malloc(size_t size);</code></pre>
+        <br>
+        <pre><code class="comment">/* for the calloc function */</code></pre>
+        <pre><code class="indent">void* calloc(size_t num, size_t size);</code></pre>
+      </div>
     </section>
     <section class="main-section" id="reference">
       <header>Reference</header>
