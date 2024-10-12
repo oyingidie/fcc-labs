@@ -10,14 +10,16 @@
 </head>
 
 <body>
-  <header class="search-bar">
-    <form method="post">
-      <input type="text" placeholder="Search...">
-      <input type="submit" value="Go">
-    </form>
-  </header>
+  <section class="search-bar">
+    <header id="search-bar">
+      <form id="search" method="get" action="">
+        <input type="text" placeholder="Search...">
+        <input type="submit" value="Go">
+      </form>
+    </header>
+  </section>
   <nav id="navbar">
-    <header>
+    <header id="doc-title">
       <img id="logo" alt="C (Programming Language) Logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png">
       <span>Documentation</span>
     </header>
@@ -67,7 +69,7 @@
         <li>Linker combines the object code of the program with the object code of library files having <em>'.lib'</em> or <em>'.a'</em> extension to generate the executable code – <em>'.exe'</em> – sometimes with the filename <em>"a.out"</em></li>
       </ul>
       <p>A local environment ensures that you have the necessary tools and resources at your disposal, facilitating a smooth coding experience. Integratеd Development Environments (IDEs) play a pivotal role in streamlining the software development process.</p>
-      <p>Onlinе IDEs such as the ones provided by <a id="virtual-env" href="https://ide.geeksforgeeks.org/">GeeksforGeeks</a> and <a id="virtual-env" href="https://cs50.dev/">Harvard CS50x</a> offer a convenient option for those who choose not to set up a local environment.</p>
+      <p>Onlinе IDEs such as the ones provided by <a class="virtual-env" href="https://ide.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a> and <a class="virtual-env" href="https://cs50.dev/" target="_blank">Harvard CS50x</a> offer a convenient option for those who choose not to set up a local environment.</p>
       <p>For a comprehensive C development environment on your local machine, two fundamental components are necessary: a text editor and a compiler.</p>
       <ul>
         <li class="list"><strong>
@@ -77,10 +79,10 @@
 
         </li>
         <ul>
-          <li class="listed"><a class="text-editor" href="https://code.visualstudio.com/download">VS Code</a> for Windows, Linux, and macOS</li>
-          <li class="listed"><a class="text-editor" href="https://www.vim.org/download.php">Vim</a> for Windows, Linux, and macOS</li>
-          <li class="listed"><a class="text-editor" href="https://www.codeblocks.org/downloads/binaries/">Code::Blocks</a> for Windows, Linux, macOS</li>
-          <li class="listed"><a class="text-editor" href="https://developer.apple.com/xcode/">Xcode</a> for macOS</li>
+          <li class="listed"><a class="text-editor" href="https://code.visualstudio.com/download" target="_blank">VS Code</a> for Windows, Linux, and macOS</li>
+          <li class="listed"><a class="text-editor" href="https://www.vim.org/download.php" target="_blank">Vim</a> for Windows, Linux, and macOS</li>
+          <li class="listed"><a class="text-editor" href="https://www.codeblocks.org/downloads/binaries/" target="_blank">Code::Blocks</a> for Windows, Linux, macOS</li>
+          <li class="listed"><a class="text-editor" href="https://developer.apple.com/xcode/" target="_blank">Xcode</a> for macOS</li>
         </ul>
         <li><strong>C compiler</strong> is a software that translates human-readable C language code into machine code or an intermediate code that can be executed by a computer’s central processing unit (CPU). There are many C compilers available in the market, such as GNU Compiler Collection (GCC), Microsoft Visual C++ Compiler, Clang, Intel C++ Compiler, and TinyCC (TCC).</li>
       </ul>
@@ -1060,12 +1062,12 @@
     <section class="main-section" id="reference">
       <header>Reference</header>
       <ul>
-        <li>All the documentation in this page is taken from <a class="reference" href="https://www.geeksforgeeks.org/c-programming-language/">GeeksforGeeks</a>, <a class="reference" href="https://www.codecademy.com/resources/blog/c-vs-cplusplus-vs-csharp-vs-objective-c/">Codecademy</a>, and <a class="reference" href="https://www.javatpoint.com/compilation-process-in-c">JavaTpoint</a>.</li>
+        <li>All the documentation in this page is taken from <a class="reference" href="https://www.geeksforgeeks.org/c-programming-language/" target="_blank">GeeksforGeeks</a>, <a class="reference" href="https://www.codecademy.com/resources/blog/c-vs-cplusplus-vs-csharp-vs-objective-c/" target="_blank">Codecademy</a>, and <a class="reference" href="https://www.javatpoint.com/compilation-process-in-c" target="_blank">JavaTpoint</a>.</li>
       </ul>
     </section>
   </main>
   <footer>
-    <p>Designed in <a href="https://www.freecodecamp.org">freeCodeCamp</a> by</p>
+    <p>Designed in <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> by</p>
     <p>Oyinkansola Adebayo</p>
   </footer>
 
