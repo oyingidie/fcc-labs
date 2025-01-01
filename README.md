@@ -1,5 +1,5 @@
 # fCC-responsive_web_design
-A collection of projects completed while trying to earn a certification via [https://www.freecodecamp.org/](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+A collection of projects completed while learning via [https://www.freecodecamp.org/](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
   - Survey Form
   - Tribute Page
