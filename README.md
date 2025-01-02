@@ -6,4 +6,3 @@ A collection of projects completed while learning via [https://www.freecodecamp.
   - Technical Documentation Page
   - Product Landing Page
   - Personal Portfolio Webpage
-  - 
