@@ -19,4 +19,4 @@
   - On regular sized devices (laptops, desktops), the element with `id="navbar"` should be shown on the left side of the screen and should always be visible to the user
   - Your technical documentation should use at least one media query
 
-Happy Coding!!
+Happy Coding!
