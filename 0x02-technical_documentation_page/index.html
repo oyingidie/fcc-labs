@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -74,9 +74,7 @@
       <ul>
         <li class="list"><strong>
             Text editors</strong> are essential programs used to edit or write text, including C programs. In the context of C programming, it’s crucial to understand that while the typical extension for a text file is <em>(.txt)</em>, files containing C programs should be saved with a <em>'.c'</em> extension. Similarly, the <em>'.cpp'</em> extension is also acceptable for C++ programs. Files with extensions <em>'.cpp'</em> and <em>'.c'</em> are termed source code files. These extensions aid the compiler in recognizing that the file contains a C or C++ program.
-          <p>Below are some popular text editors you can install and set up as a local environment to write C:
-          <p>
-
+          <p>Below are some popular text editors you can install and set up as a local environment to write C:</p>
         </li>
         <ul>
           <li class="listed"><a class="text-editor" href="https://code.visualstudio.com/download" target="_blank">VS Code</a> for Windows, Linux, and macOS</li>
@@ -89,7 +87,7 @@
       <p class="sub-heading">Components and Language Structure</p>
       <p>We can assess the basic syntax structure of a C program. By structure, we mean that any C program can be written in this language structure only. Writing the program in any other structure will hence lead to a compilation error. The structure is as follows:</p>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt; </code></pre>
         <br>
         <pre><code class="define-code">int main()</code></pre>
         <pre><code>{</code></pre>
@@ -99,7 +97,7 @@
       <ul>
         <li class="list">Line 1: <strong>Header file inclusion</strong>. A header file is a file with extension <em>'.h'</em> that contains C function declarations and macro definitions to be shared between several source files, and adds functionality to C programs.</li>
         <ul>
-          <li class="listed">All lines in C starting with #, such as <em>#include < stdio.h></em>, are processed by the preprocessor which in this instance copies the preprocessed code of <em>stdio.h</em> to the wriiten code.</li>
+          <li class="listed">All lines in C starting with #, such as <em>#include &lt;stdio.h&gt;</em>, are processed by the preprocessor which in this instance copies the preprocessed code of <em>stdio.h</em> to the wriiten code.</li>
         </ul>
         <li>Line 2: <strong>White space</strong> – a blank line. C ignores white spaces, but they are used to enhance code readability.</li>
         <li class="list">Line 3: <strong>Main function declaration</strong>. The next part of a C program is to declare the main function. It is the entry point of a C program and the execution typically begins with the first line of the <em>main()</em> - inside its curly braces. Every C program must therefore have a main function.</li>
@@ -173,7 +171,7 @@
       <p>The "Hello, World!" program is the first step towards learning any programming language and also one of the simplest programs you will learn. To print the "Hello, World!", we can use the <em class="function">printf</em> function from the <em>stdio.h</em> library that prints the given string on the screen.</p>
       <p>Once executed, the C program below displays "Hello, World!" followed by a new line:</p>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Entry point</code></pre>
@@ -186,7 +184,7 @@
         <pre><code class="indent">return (0);</code></pre>
         <pre><code>}</code></pre>
       </div>
-      <p id="output">Output:</p>
+      <p class="output">Output:</p>
       <div class="terminal-output">
         <pre><code>Hello, World!</code></pre>
       </div>
@@ -195,7 +193,7 @@
         <li>Using <em class="function">puts()</em> function</li>
       </ul>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Entry point</code></pre>
@@ -208,7 +206,7 @@
         <pre><code class="indent">return (0);</code></pre>
         <pre><code>}</code></pre>
       </div>
-      <p id="output">Output:</p>
+      <p class="output">Output:</p>
       <div class="terminal-output">
         <pre><code>Hello, World!</code></pre>
       </div>
@@ -216,7 +214,7 @@
         <li>Character-by-character printing using <em class="function">putchar()</em></li>
       </ul>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Entry point</code></pre>
@@ -232,7 +230,7 @@
         <pre><code class="indent">return (0);</code></pre>
         <pre><code>}</code></pre>
       </div>
-      <p id="output">Output:</p>
+      <p class="output">Output:</p>
       <div class="terminal-output">
         <pre><code>Hello, World!</code></pre>
       </div>
@@ -240,7 +238,7 @@
         <li>bulleted details, maybe...</li>
       </ul>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Entry point</code></pre>
@@ -253,7 +251,7 @@
         <pre><code class="indent">return (0);</code></pre>
         <pre><code>}</code></pre>
       </div>
-      <p id="output">Output:</p>
+      <p class="output">Output:</p>
       <div class="terminal-output">
         <pre><code>Hello, World!</code></pre>
       </div>
@@ -325,6 +323,7 @@
             <td>char</td>
             <td>1</td>
             <td>%c</td>
+          </tr>
           <tr>
             <td>unsigned char</td>
             <td>1</td>
@@ -337,7 +336,7 @@
             <td>%f</td>
           </tr>
           <tr>
-            <td rowspan="2">Double Floating Point
+            <td rowspan="2">Double Floating Point</td>
             <td>double</td>
             <td>8</td>
             <td>%lf</td>
@@ -353,7 +352,7 @@
       <p class="sub-heading">Size of Data Types</p>
       <p>The size of the data types in C is dependent on the size of the architecture, so we cannot define the universal size of the data types. For that, the C language provides the <em class="function">sizeof()</em> operator to check the size of the data types - see example below.</p>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Displays the size of different data types</code></pre>
@@ -378,7 +377,7 @@
         <pre><code class="indent">return (0);</code></pre>
         <pre><code>}</code></pre>
       </div>
-      <p id="output">Output:</p>
+      <p class="output">Output:</p>
       <div class="terminal-output">
         <pre><code>The size of int data type: 4</code></pre>
         <pre><code>The size of char data type: 1</code></pre>
@@ -391,13 +390,13 @@
       <p>C language has standard libraries that allow input and output in a program, e.g. the <em>stdio.h</em> or standard input output library in C that has methods for input and output.</p>
       <ul>
         <li>The <em class="function">scanf()</em> method, in C, reads the value from the console as per the type specified and store it in the given address.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
-          <pre><code>scanf("%X", &variableOfXType);</code></pre>
+          <pre><code>scanf("%X", &amp;variableOfXType);</code></pre>
         </div>
-        <p>where <em class="function">%X</em> is the format specifier. It's a way to tell the compiler what type of data is in a variable and <em class="function">'&' </em> is the address operator in C, which tells the compiler to change the real value of <em class="function">variableOfXType</em>, stored at this address in the memory.</p>
+        <p>where <em class="function">%X</em> is the format specifier. It's a way to tell the compiler what type of data is in a variable and <em class="function">'&amp;' </em> is the address operator in C, which tells the compiler to change the real value of <em class="function">variableOfXType</em>, stored at this address in the memory.</p>
         <li>The <em class="function">printf()</em> method prints the value passed as the parameter to it, on the console screen.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>printf("%X", variableOfXType);</code></pre>
         </div>
@@ -405,7 +404,7 @@
       </ul>
       <p>In order to input or output the specific type, the 'X' in the above syntax is changed with the specific format specifier of that type - see the program below.</p>
       <div class="source-code">
-        <pre><code>#include < stdio.h ></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <br>
         <pre><code class="comment">/**</code></pre>
         <pre><code class="comment"> * main - Shows input and output operations</code></pre>
@@ -675,9 +674,9 @@
           <li class="listed"><em>sizeof()</em> Operator</li>
           <li class="listed">Comma Operator (,)</li>
           <li class="listed">Conditional Operator (?:)</li>
-          <li class="listed">dot (.) and arrow (->) Operators</li>
+          <li class="listed">dot (.) and arrow (-&gt;) Operators</li>
           <li class="listed">Cast Operator</li>
-          <li class="listed">addressof (&) and Dereference (*) Operators</li>
+          <li class="listed">addressof (&amp;) and Dereference (*) Operators</li>
         </ul>
       </ul>
     </section>
@@ -688,7 +687,7 @@
       <p>The following are conditional statements available in C:</p>
       <ul>
         <li><strong><em>if</em> Statement: </strong>The most simple decision-making statement. It is used to decide whether a certain statement or block of statements will be executed or not i.e. if a certain condition is true then a block of statements is executed, otherwise not.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>if (condition)</code></pre>
           <pre><code>{</code></pre>
@@ -697,7 +696,7 @@
           <pre><code>}</code></pre>
         </div>
         <li><strong><em>if-else</em> Statement: </strong>The <em>if</em> statement alone tells us that if a condition is true it will execute a block of statements and if the condition is false it won’t. But what if we want to do something else when the condition is false? We can use the <em>else</em> statement with the <em>if</em> statement to execute a block of code when the condition is false.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>if (condition)</code></pre>
           <pre><code class="comment indent">/* Executes statement when condition is true */</code></pre>
@@ -705,7 +704,7 @@
           <pre><code class="comment indent">/* Executes when false */</code></pre>
         </div>
         <li><strong>Nested <em>if</em> Statement: </strong>A nested <em>if</em> in C is an <em>if</em> statement that is the target of another <em>if</em> statement. Nested <em>if</em> statements mean an <em>if</em>, or <em>if-else</em> statement inside another <em>if</em> statement - or an <em>else</em> statement.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>if (condition_1)</code></pre>
           <pre><code>{</code></pre>
@@ -735,7 +734,7 @@
           <pre><code>}</code></pre>
         </div>
         <li><strong><em>if-else-if</em> Ladder: </strong>The <em>if-else-if</em> statements, which is similar to <em>switch</em> statements, are used when the user has to decide among multiple options. The C <em>if</em> statements are executed from the top down. As soon as one of the conditions controlling the <em>if</em> is true, the statement associated with that <em>if</em> is executed, and the rest of the C <em>else-if</em> ladder is bypassed. If none of the conditions is true, then the final <em>else</em> statement will be executed.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>if (condition_1)</code></pre>
           <pre><code class="comment indent">/* Executes statement when condition_1 is true */</code></pre>
@@ -748,7 +747,7 @@
           <pre><code class="comment indent">/* When all conditions are false */</code></pre>
         </div>
         <li><strong><em>switch</em> Statement: </strong>The <em>switch</em> case statement is an alternative to the <em>if-else-if</em> ladder that can be used to execute the conditional code based on the value of the variable specified in the switch statement. The <em>switch</em> block consists of cases to be executed based on the value of the <em>switch</em> variable.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>switch (expression)</code></pre>
           <pre><code>{</code></pre>
@@ -767,7 +766,7 @@
         </div>
         <p>The switch expression should evaluate to either integer or character. It cannot evaluate any other data type.</p>
         <li><strong>Conditional Operator: </strong>The conditional operator is used to add conditional code in our program. It is similar to the <em>if-else</em> statement. It is also known as the <strong>ternary operator</strong> as it works on three operands.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>(condition) ? [if_true_statement] : [if_false_statement];</code></pre>
         </div>
@@ -776,9 +775,9 @@
           <li class="listed"><em class="function">break</em> is a loop control statement used to terminate the loop.</li>
           <li class="listed"><em class="function">continue</em> is opposite to the <em>break</em> statement, forcing execution of the next iteration of the loop.</li>
           <li class="listed">The <em class="function">goto</em> statement in C, also referred to as the unconditional jump statement, can be used to jump from one point to another within a function.</li>
-          <li class="listed">The <em class="function">return</em> in C returns the flow of the execution to the function from where it is called. As soon as the statement is executed, the flow of the program stops immediately and returns the control from where it was called.</p>
-            <p>The return statement may or may not return anything for a <em>void</em> function, but for a non-void function, a return value must be returned.</p>
+          <li class="listed">The <em class="function">return</em> in C returns the flow of the execution to the function from where it is called. As soon as the statement is executed, the flow of the program stops immediately and returns the control from where it was called.</li>
         </ul>
+        <p>The return statement may or may not return anything for a <em>void</em> function, but for a non-void function, a return value must be returned.</p>
       </ul>
     </section>
     <section class="main-section" id="loops">
@@ -791,7 +790,7 @@
           <li class="listed"><strong>Exit Controlled loops</strong> where the test condition is evaluated at the end of the loop body. The loop body will execute at least once, irrespective of whether the condition is true or false, e.g. the <em>do-while</em> loop.</li>
         </ul>
         <li><strong><em>for</em> loop </strong>in C programming is a repetition control structure that allows programmers to write a loop that will be executed a specific number of times. <em>for</em> loop enables programmers to perform <em>n</em> number of steps together in a single line.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>for (initialisation; test_expression; update_expression)</code></pre>
           <pre><code>{</code></pre>
@@ -800,7 +799,7 @@
         </div>
         <p>A loop variable is used to control the loop. Firstly, we initialise the loop variable with some value, then check its test condition. If the statement is true then control will move to the body and the body of the <em>for</em> loop will be executed. These steps will be repeated until the exit condition becomes true. If the test condition is false, the loop stops.</p>
         <div class="source-code">
-          <pre><code>#include < stdio.h ></code></pre>
+          <pre><code>#include &lt;stdio.h&gt;</code></pre>
           <br>
           <pre><code class="comment">/**</code></pre>
           <pre><code class="comment"> * main - Illustrates the operation of the for loop</code></pre>
@@ -811,7 +810,7 @@
           <pre><code>{</code></pre>
           <pre><code class="indent">int i;</code></pre>
           <br>
-          <pre><code class="indent">for (i = 1; i <= 5; i++)</code></pre>
+          <pre><code class="indent">for (i = 1; i &lt;= 5; i++)</code></pre>
           <pre><code class="indent">{</code></pre>
           <pre><code class="double-indent">printf( "This is a for loop; execution %d.\n", i);</code></pre>
           <pre><code class="indent">}</code></pre>
@@ -820,7 +819,7 @@
           <pre><code class="indent">return (0);</code></pre>
           <pre><code>}</code></pre>
         </div>
-        <p id="output">Output:</p>
+        <p class="output">Output:</p>
         <div class="terminal-output">
           <pre><code>This is a for loop; execution 1.</code></pre>
           <pre><code>This is a for loop; execution 2.</code></pre>
@@ -829,7 +828,7 @@
           <pre><code>This is a for loop; execution 5.</code></pre>
         </div>
         <li><strong><em>while</em> loop </strong>does not depend on the number of iterations. In <em>for</em> loop the number of iterations is previously known but in the <em>while</em> loop, the execution is terminated on the basis of the test condition. If the test condition becomes false, the loop breaks otherwise its body is executed.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>initialisation;</code></pre>
           <br>
@@ -841,7 +840,7 @@
         </div>
         <p>Here's a code sample of the <em>while</em> loop:</p>
         <div class="source-code">
-          <pre><code>#include < stdio.h ></code></pre>
+          <pre><code>#include &lt;stdio.h&gt;</code></pre>
           <br>
           <pre><code class="comment">/**</code></pre>
           <pre><code class="comment"> * main - Illustrates the operation of the while loop</code></pre>
@@ -852,7 +851,7 @@
           <pre><code>{</code></pre>
           <pre><code class="indent">int i = 3;</code></pre>
           <br>
-          <pre><code class="indent">while (i < 6)</code></pre>
+          <pre><code class="indent">while (i &lt; 6)</code></pre>
           <pre><code class="indent">{</code></pre>
           <pre><code class="double-indent">printf( "...Execution %d of this while loop...\n", i);</code></pre>
           <pre><code class="double-indent">i++;</code></pre>
@@ -862,14 +861,14 @@
           <pre><code class="indent">return (0);</code></pre>
           <pre><code>}</code></pre>
         </div>
-        <p id="output">Output:</p>
+        <p class="output">Output:</p>
         <div class="terminal-output">
           <pre><code>...Execution 3 of this while loop...</code></pre>
           <pre><code>...Execution 4 of this while loop...</code></pre>
           <pre><code>...Execution 5 of this while loop...</code></pre>
         </div>
         <li>The <strong><em>do-while</em> loop </strong>in C programming is a repetition control structure that allows programmers to write a loop that will be executed a specific number of times. <em>for</em> loop enables programmers to perform <em>n</em> number of steps together in a single line.</li>
-        <p id="syntax">Syntax:</p>
+        <p class="syntax">Syntax:</p>
         <div class="code-syntax">
           <pre><code>initialisation;</code></pre>
           <br>
@@ -881,7 +880,7 @@
         </div>
         <p>Here's a code sample of the <em>do-while</em> loop:</p>
         <div class="source-code">
-          <pre><code>#include < stdio.h ></code></pre>
+          <pre><code>#include &lt;stdio.h&gt;</code></pre>
           <br>
           <pre><code class="comment">/**</code></pre>
           <pre><code class="comment"> * main - Illustrates the operation of the do-while loop</code></pre>
@@ -896,13 +895,13 @@
           <pre><code class="indent">{</code></pre>
           <pre><code class="double-indent">printf( "Number %d do-while loop.\n", i);</code></pre>
           <pre><code class="double-indent">i++;</code></pre>
-          <pre><code class="indent">} while (i < 3);</code></pre>
+          <pre><code class="indent">} while (i &lt; 3);</code></pre>
 
           <br>
           <pre><code class="indent">return (0);</code></pre>
           <pre><code>}</code></pre>
         </div>
-        <p id="output">Output:</p>
+        <p class="output">Output:</p>
         <div class="terminal-output">
           <pre><code>Number 0 do-while loop.</code></pre>
           <pre><code>Number 1 do-while loop.</code></pre>
@@ -942,9 +941,8 @@
       <p>paragraph for each module starts here</p>
       <p>another paragraph [maybe...]</p>
       <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
       </div>
       <ul>
         <li>bulleted details, maybe...</li>
@@ -954,9 +952,8 @@
       <header>Arrays and Strings</header>
       <p>paragraph for each module starts here</p>
       <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
       </div>
       <ul>
         <li>bulleted details, maybe...</li>
@@ -967,9 +964,8 @@
       <p>paragraph for each module starts here</p>
       <p>another paragraph [maybe...]</p>
       <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
       </div>
       <ul>
         <li>bulleted details, maybe...</li>
@@ -980,9 +976,8 @@
       <p>paragraph for each module starts here</p>
       <p>another paragraph [maybe...]</p>
       <div class="terminal">
-        <pre><code>#include < stdio.h></code></pre>
+        <pre><code>#include &lt;stdio.h&gt;</code></pre>
         <pre><code>// comment</code></pre>
-        <pre>       indentation</code></pre>
       </div>
       <ul>
         <li>bulleted details, maybe...</li>
@@ -1050,7 +1045,7 @@
           </tr>
         </tbody>
       </table>
-      <p id="syntax">Syntax:</p>
+      <p class="syntax">Syntax:</p>
       <div class="code-syntax">
         <pre><code class="comment">/* for the malloc function */</code></pre>
         <pre><code class="indent">void* malloc(size_t size);</code></pre>
@@ -1071,5 +1066,6 @@
     <p>Oyinkansola Adebayo</p>
   </footer>
 
-</html>
 </body>
+
+</html>
