@@ -1,5 +1,5 @@
 # Build a Personal Portfolio Webpage
-**Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks.
+**Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
 
 **User Stories:**
 - Your portfolio should have a welcome section with an id of welcome-section
@@ -14,4 +14,4 @@
 - The height of the welcome section should be equal to the height of the viewport
 - The navbar should always be at the top of the viewport
 
-Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!
+Happy Coding!
