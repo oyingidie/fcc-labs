@@ -1,4 +1,4 @@
-# Responsive Web Design
+## Responsive Web Design
 A collection of projects completed while learning via [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
 
   - Survey Form
