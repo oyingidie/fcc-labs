@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>C Documentation</title>
-  <link rel="stylesheet" href="./technical_doc.css">
+  <link rel="stylesheet" href="./c_technical_doc.css">
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 </head>
 
@@ -18,6 +18,7 @@
       </form>
     </header>
   </section>
+
   <nav id="navbar">
     <header id="doc-title">
       <img id="logo" alt="C (Programming Language) Logo" src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png">
@@ -39,6 +40,7 @@
     <a class="nav-link" href="#memory_management">Memory Management</a>
     <a class="nav-link" href="#reference">Reference</a>
   </nav>
+
   <main id="main-doc">
     <section class="main-section" id="introduction">
       <header>Introduction</header>
@@ -154,6 +156,7 @@
         <li>Modern applications: C is used for developing modern programs and utilities e.g. scientific applications such as simulation software and numerical analysis tools, financial applications such as stock market analysis and trading systems, etc.</li>
       </ul>
     </section>
+
     <section class="main-section" id="c_vs_c++_vs_c#_vs_objective-c">
       <header>C vs C++ vs C# vs Objective-C</header>
       <p>While these programming languages can be said to belong to the same family, they are nonetheless different. C was the first of these languages, and the rest either extended from it or are based on it.</p>
@@ -166,6 +169,7 @@
       <p>C++, C#, and Objective-C code can all be written in a procedural and/or object-oriented programming style.</p>
       <p>C is still a popular language, especially with embedded systems and places where object-oriented programming isn’t needed but most developers opt to use C++ instead since it’s a superset of C. If you want to use a higher-level programming language than C++ and plan on creating Windows desktop applications, video games, mobile apps, or web services, then C# is an excellent choice. Swift, used in writing code for Apple products, has mostly replaced Objective-C — even Apple recommends using it.</p>
     </section>
+
     <section class="main-section" id="hello,_world!">
       <header>Hello, World!</header>
       <p>The "Hello, World!" program is the first step towards learning any programming language and also one of the simplest programs you will learn. To print the "Hello, World!", we can use the <em class="function">printf</em> function from the <em>stdio.h</em> library that prints the given string on the screen.</p>
@@ -257,6 +261,7 @@
       </div>
       <p>These are various ways to write the “Hello, World!” program in C. Each example demonstrates different aspects and functions of the language, providing multiple approaches for beginners to understand and explore.</p>
     </section>
+
     <section class="main-section" id="data_types">
       <header>Data Types</header>
       <p>Each variable in C has an associated data type. It specifies the type of data that the variable can store like integer, character, floating, double, etc. Each data type requires different amounts of memory and has some specific operations which can be performed over it. The data type is a collection of data with values having fixed values, meaning, as well as characteristics.</p>
@@ -385,6 +390,7 @@
         <pre><code>The size of double data type: 8</code></pre>
       </div>
     </section>
+
     <section class="main-section" id="input/output">
       <header>Input/Output</header>
       <p>C language has standard libraries that allow input and output in a program, e.g. the <em>stdio.h</em> or standard input output library in C that has methods for input and output.</p>
@@ -541,8 +547,8 @@
         <li class="listed">A period(.) symbol separates field width with precision.</li>
       </ul>
       <p>Precision tells the minimum number of digits in an integer, the maximum number of characters in a string, and the number of digits after the decimal part in a floating value.</p>
-
     </section>
+
     <section class="main-section" id="variables_and_constants">
       <header>Variables and Constants</header>
       <p>A variable in C is a memory location with some name that helps store some form of data and retrieves it when required. We can store different types of data in the variable and reuse the same variable for storing some other data any number of times. A variable is the basic building block of a C program that can be used in expressions as a substitute in place of the value it stores.</p>
@@ -648,6 +654,7 @@
         </tbody>
       </table>
     </section>
+
     <section class="main-section" id="operators">
       <header>Operators</header>
       <p>In C language, operators are symbols that represent operations to be performed on one or more operands. They are the basic components of the C programming.</p>
@@ -680,6 +687,7 @@
         </ul>
       </ul>
     </section>
+
     <section class="main-section" id="conditionals">
       <header>Conditionals</header>
       <p>Conditional statements such as <em>if, if else, switch,</em> etc. are used for decision-making purposes in C programs. They are also known as <strong>Decision-Making Statements</strong> and are used to evaluate one or more conditions and make the decision whether to execute a set of statements or not. These decision-making statements in programming languages decide the direction of the flow of program execution.</p>
@@ -780,6 +788,7 @@
         <p>The return statement may or may not return anything for a <em>void</em> function, but for a non-void function, a return value must be returned.</p>
       </ul>
     </section>
+
     <section class="main-section" id="loops">
       <header>Loops</header>
       <p>Loops in programming are used to repeat a block of code until the specified condition is met. A loop statement allows programmers to execute a statement or group of statements multiple times without repetition of code.</p>
@@ -936,6 +945,7 @@
         <li>An <strong>infinite loop</strong> is executed when the test expression never becomes false and the body of the loop is executed repeatedly. A program is stuck in an infinite loop when the condition is always true. Mostly this is an error that can be resolved by using loop control statements.</li>
       </ul>
     </section>
+
     <section class="main-section" id="functions">
       <header>Functions</header>
       <p>paragraph for each module starts here</p>
@@ -948,6 +958,7 @@
         <li>bulleted details, maybe...</li>
       </ul>
     </section>
+
     <section class="main-section" id="arrays_and_strings">
       <header>Arrays and Strings</header>
       <p>paragraph for each module starts here</p>
@@ -959,6 +970,7 @@
         <li>bulleted details, maybe...</li>
       </ul>
     </section>
+
     <section class="main-section" id="pointers">
       <header>Pointers</header>
       <p>paragraph for each module starts here</p>
@@ -971,6 +983,7 @@
         <li>bulleted details, maybe...</li>
       </ul>
     </section>
+
     <section class="main-section" id="structures">
       <header>Structures</header>
       <p>paragraph for each module starts here</p>
@@ -983,6 +996,7 @@
         <li>bulleted details, maybe...</li>
       </ul>
     </section>
+
     <section class="main-section" id="memory_management">
       <header>Memory Management</header>
       <p>A typical memory representation/layout of a running C program consists of the following sections:</p>
@@ -1054,6 +1068,7 @@
         <pre><code class="indent">void* calloc(size_t num, size_t size);</code></pre>
       </div>
     </section>
+
     <section class="main-section" id="reference">
       <header>Reference</header>
       <ul>
@@ -1061,11 +1076,11 @@
       </ul>
     </section>
   </main>
+
   <footer>
     <p>Designed in <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> by</p>
     <p>Oyinkansola Adebayo</p>
   </footer>
-
 </body>
 
 </html>
