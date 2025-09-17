@@ -1,1 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <header id="header">
+      <svg id="header-logo" role="logo" alt="A & M Logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 60" width="120" height="60">
+        <rect x="5" y="5" width="110" height="50" rx="3" ry="3" fill="none" stroke="black" stroke-width="4" />
+        <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" font-size="32" font-weight="700" fill="#000">
+          A &amp; M
+        </text>
+      </svg>
+      <nav id="nav-bar">
+        <a class="nav-link" href="#sect_a">Welcome</a>
+        <a class="nav-link" href="#sect_b">Explore</a>
+        <a class="nav-link" href="#sect_c">Best Sellers</a>
+      </nav>
+    </header>
+
+    <section id="sect_a">
+      <h2>Welcome to Albert &amp; Mabel</h2>
+      <p>Your one-stop shop for curated books, journals, and premium stationery.
+        Whether you’re a reader, a writer, or a dreamer, we’ve got the tools for your creativity.</p>
+    </section>
+
+    <section id="sect_b">
+      <div>
+        <iframe id="video" width="1280" height="720" src="https://youtube.com/embed/OWa5rzEOumQ" title="Explore A & M" allowfullscreen controls></iframe>
+      </div>
+    </section>
+
+    <section id="sect_c">
+      <h2>Our Best Sellers</h2>
+      <div class="offerings">
+        <div class="product">
+          <h3>Handcrafted Journals</h3>
+          <p>Made with eco-friendly paper and stitched leather covers, perfect for daily journaling or gifting.</p>
+          <ul>
+            <li>100% genuine leather cover</li>
+            <li>Recycled, acid-free paper</li>
+            <li>Durable hand-sewn binding</li>
+          </ul>
+        </div>
+
+        <div class="product">
+          <h3>Luxury Fountain Pens</h3>
+          <p>A collector’s dream pen with precise nibs and timeless designs.</p>
+          <ul>
+            <li>Gold or silver nib options</li>
+            <li>Perfect for calligraphy</li>
+            <li>Ergonomic grip design</li>
+          </ul>
+        </div>
+
+        <div class="product">
+          <h3>Sketchbooks &amp; Art Pads</h3>
+          <p>High-quality sketchbooks for artists of every level, from doodlers to professionals.</p>
+          <ul>
+            <li>Thick bleed-resistant pages</li>
+            <li>Spiral-bound or hardcover</li>
+            <li>Available in A4, A5 sizes</li>
+          </ul>
+        </div>
+      </div>
+
+      <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" type="email" name="email" placeholder="Join our mailing list for offers">
+        <input id="submit" type="submit" value="Subscribe">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed in <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> by Oyinkansola Adebayo</p>
+  </footer>
+</body>
+
+</html>
