@@ -1,4 +1,4 @@
-## Albert & Mabel Smart Bookstore Landing Page
+## Albert & Mabel Bookstore Landing Page
 
 ### :book: Overview
 
