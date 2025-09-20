@@ -27,7 +27,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-### :medal_military:handshake: Tribute Page
+### :medal_military::handshake: Tribute Page
 
 **Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
