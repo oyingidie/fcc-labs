@@ -37,12 +37,12 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
 
-#### :information_source: How It Works
-
-1. User enters text in the input field
-2. App strips spaces, punctuation, and converts text to lowercase
-3. Compares the original cleaned string with its reversed version
-4. Displays result instantly
+> ##### :information_source: How It Works
+>
+> 1. User enters text in the input field
+> 2. App strips spaces, punctuation, and converts text to lowercase
+> 3. Compares the original cleaned string with its reversed version
+> 4. Displays result instantly
 
 ### :recycle: Potential Enhancements
 
