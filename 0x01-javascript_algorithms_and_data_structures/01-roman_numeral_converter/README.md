@@ -41,7 +41,7 @@ View on [CodePen](https://codepen.io/oyingidie/full/EaYoeJL)
 > ##### :jigsaw: How It Works
 >
 > 1. User enters a number (between 1 and 3999)
-> 2. App checks for validity (i.e. non-empty, \ge 1, \le 3999)
+> 2. App checks for validity (i.e. non-empty, ≥1, ≤3999)
 > 3. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
 > 4. Displays result instantly
 
