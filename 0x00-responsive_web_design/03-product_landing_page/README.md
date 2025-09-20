@@ -8,7 +8,7 @@ A modern, responsive bookstore landing page that combines clean design, product 
 
 - Custom SVG logo for brand identity
 - Search bar for quick navigation
-- Embedded YouTube video for product demonstration
+- Embedded YouTube video for product demo
 - Email subscription form to join the mailing list
 
 ### :hammer_and_wrench: Technologies Used
