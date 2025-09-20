@@ -8,7 +8,7 @@ A collection of projects completed while learning HTML and CSS
   - Product Landing Page
   - Personal Portfolio Webpage
 
-### 0. Build a Survey Form
+### :clipboard: 0. Build a Survey Form
 
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
