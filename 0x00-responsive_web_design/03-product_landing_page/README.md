@@ -1,22 +1,47 @@
-### Build a Product Landing Page
+## Albert & Mabel Smart Bookstore Landing Page
 
-**Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
+### :book: Overview
 
-**User Stories:**
-- Your product landing page should have a `header` element with a corresponding `id="header"`
-- You can see an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here)
-- Within the `#header` element, you can see a `nav` element with a corresponding `id="nav-bar"`
-- You can see at least three clickable elements inside the `nav` element, each with the class `nav-link`
-- When you click a `.nav-link` button in the `nav` element, you are taken to the corresponding section of the landing page
-- You can watch an embedded product video with `id="video"`
-- Your landing page has a `form` element with a corresponding `id="form"`
-- Within the form, there is an `input` field with `id="email"` where you can enter an email address
-- The `#email` input field should have placeholder text to let users know what the field is for
-- The `#email` input field uses HTML5 validation to confirm that the entered text is an email address
-- Within the form, there is a submit `input` with a corresponding `id="submit"`
-- When you click the `#submit` element, the email is submitted to a static page (use this mock URL: `https://www.freecodecamp.com/email-submit`)
-- The navbar should always be at the top of the viewport
-- Your product landing page should have at least one media query
-- Your product landing page should utilize CSS flexbox at least once
+A modern, responsive bookstore landing page that combines clean design, product highlights, and multimedia integration to give visitors an elegant and engaging browsing experience.
 
-Happy Coding!
+### :sparkles: Features
+
+- Custom SVG logo for brand identity
+- Search bar for quick navigation
+- Embedded YouTube video for product demonstration
+- Email subscription form to join the mailing list
+
+### :hammer_and_wrench: Technologies Used
+
+- **HTML5** for structure
+- **CSS3** for custom styling and layout
+- **Google Fonts** for typography
+
+### :file_folder: Project Structure
+
+```
+fcc-labs/
+|-- 0x00-responsive_web_design/
+|--  |-- ...
+|    |-- 03-product_landing_page/
+|    |    |-- albert_and_mabel.html
+|    |    |-- albert_and_mabel.css
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
+```
+
+### :rocket: Live Demo
+
+View on [CodePen](https://codepen.io/oyingidie/full/jOgMYQo)
+
+### :recycle: Future Improvements
+
+- Expand product catalog with dynamic filtering with a shopping cart system for purchases
+- Enhance subscription feature with real email integration
+- Integrate a conversational AI assistant for smart, personalised user experience
+
+### :paintbrush: Author
+
+Designed by **Oyinkansola Nuel Adebayo**
