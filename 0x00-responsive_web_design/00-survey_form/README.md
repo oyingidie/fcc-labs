@@ -2,7 +2,7 @@
 
 ### :book: Description
 
-A responsive survey form for a food delivery service, built with HTML5 and CSS3. It collects user information, food preferences, and feedback on delivery platforms and app features. The form includes input validation, accessible labels, and a clean, modern layout, making it a practical example of front-end form design and user experience principles.
+A responsive survey form for a food delivery service, built with HTML and CSS. It collects user information, including food preferences, feedback on delivery platforms and desired app features. The form includes input validation, accessible labels, and a clean, modern layout, making it a practical example of front-end form design and user experience principles.
 
 ### :sparkles: Features
 
@@ -21,15 +21,10 @@ A responsive survey form for a food delivery service, built with HTML5 and CSS3.
 ### :file_folder: Project Structure
 
 ```
-0x00-responsive_web_design/
-|-- 00-survey_form/
+00-survey_form/
     |-- food_delivery_survey_form.html
     |-- food_delivery_survey_form.css
     |-- README.md
-|-- 01-tribute_page/
-|-- 02-technical_documentation_page/
-|-- 03-product_landing_page/
-|-- 04-personal_portfolio/
 ```
 
 ### :rocket: How to Run
@@ -45,4 +40,5 @@ A responsive survey form for a food delivery service, built with HTML5 and CSS3.
 - Add animations and transitions for a smoother user experience 
 
 ### :paintbrush: Author
-Designed by **Oyinkansola Nuel Adebayo**
+
+<sub>Designed by **Oyinkansola Nuel Adebayo**</sub>
