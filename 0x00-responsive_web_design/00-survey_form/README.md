@@ -21,10 +21,15 @@ A responsive survey form for a food delivery service, built with HTML and CSS. I
 ### :file_folder: Project Structure
 
 ```
-00-survey_form/
-|-- food_delivery_survey_form.html
-|-- food_delivery_survey_form.css
-|-- README.md (this document)
+fcc-labs/
+|-- 0x00-responsive_web_design/
+|    |-- 00-survey_form/
+|    |    |-- food_delivery_survey_form.html
+|    |    |-- food_delivery_survey_form.css
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
 ```
 
 ### :rocket: How to Run
