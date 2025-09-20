@@ -24,7 +24,7 @@ A responsive survey form for a food delivery service, built with HTML and CSS. I
 00-survey_form/
 |-- food_delivery_survey_form.html
 |-- food_delivery_survey_form.css
-|-- README.md
+|-- README.md (this document)
 ```
 
 ### :rocket: How to Run
