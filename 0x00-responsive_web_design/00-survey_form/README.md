@@ -32,11 +32,9 @@ fcc-labs/
 |-- ...
 ```
 
-### :rocket: How to Run
+### :rocket: Live Demo
 
-1. Clone or download the root repository
-2. Navigate and open `food_delivery_survey_form.html` in any modern browser
-3. Fill out the form and interact with its features
+View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
 
 ### :recycle: Future Improvements
 
@@ -46,4 +44,4 @@ fcc-labs/
 
 ### :paintbrush: Author
 
-Designed by **Oyinkansola Nuel Adebayo**
+**Oyinkansola Nuel Adebayo**
