@@ -1,6 +1,6 @@
 ## Food Delivery Service Survey Form
 
-### :book: Description
+### :book: Overview
 
 A responsive survey form for a food delivery service, built with HTML and CSS. It collects user information, including food preferences, feedback on delivery platforms and desired app features. The form includes input validation, accessible labels, and a clean, modern layout, making it a practical example of front-end form design and user experience principles.
 
