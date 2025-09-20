@@ -35,9 +35,9 @@ fcc-labs/
 
 ### :rocket: Live Demo
 
-View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
+View on [CodePen](https://codepen.io/oyingidie/full/MWNGENa)
 
-> ##### :information_source: How It Works
+> ##### :jigsaw: How It Works
 >
 > 1. User enters text in the input field
 > 2. App strips spaces, punctuation, and converts text to lowercase
