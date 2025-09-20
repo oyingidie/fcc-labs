@@ -37,7 +37,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/MWNGENa)
 
-> ##### :high_brightness: How It Works
+> ##### :zap: How It Works
 >
 > 1. User enters text in the input field
 > 2. App strips spaces, punctuation, and converts text to lowercase
