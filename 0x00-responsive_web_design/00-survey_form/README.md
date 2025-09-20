@@ -34,8 +34,8 @@ fcc-labs/
 
 ### :rocket: How to Run
 
-1. Clone or download this repository
-2. Open `food_delivery_survey_form.html` in any modern browser
+1. Clone or download the root repository
+2. Navigate and open `food_delivery_survey_form.html` in any modern browser
 3. Fill out the form and interact with its features
 
 ### :recycle: Future Improvements
