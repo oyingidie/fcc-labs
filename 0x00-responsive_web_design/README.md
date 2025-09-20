@@ -2,7 +2,9 @@
 
 A collection of projects completed while learning how to build webpages.
 
-## :clipboard::bar_chart: Survey Form
+<br>
+
+### :clipboard::bar_chart: Survey Form
 
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
@@ -26,7 +28,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-## :saluting_face::bouquet: Tribute Page
+### :saluting_face::bouquet: Tribute Page
 
 **Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
@@ -46,7 +48,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-## :computer::page_facing_up: Technical Documentation Page
+### :computer::page_facing_up: Technical Documentation Page
 
 **Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
 
@@ -69,7 +71,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-## :shopping::shopping_cart: Product Landing Page
+### :shopping::shopping_cart: Product Landing Page
 
 **Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
 
@@ -92,7 +94,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-## :artist::briefcase: Personal Portfolio Webpage
+### :artist::briefcase: Personal Portfolio Webpage
 
 **Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
 
