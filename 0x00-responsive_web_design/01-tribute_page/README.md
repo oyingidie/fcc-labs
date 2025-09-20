@@ -36,7 +36,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/WNqzGOr)
 
-### :recycle: Future Improvements
+### :recycle: Potential Enhancements
 
 - Add animations for timeline events
 - Include a photo gallery of Wenger's career moments
