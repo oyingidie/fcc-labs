@@ -1,5 +1,6 @@
 ## Responsive Web Design
-A collection of projects completed while learning HTML and CSS via [freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+
+Tools: <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" alt="HTML" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" alt="CSS" width="40"/>
 
   - Survey Form
   - Tribute Page
