@@ -8,7 +8,7 @@ A collection of projects completed while learning HTML and CSS
   - Product Landing Page
   - Personal Portfolio Webpage
 
-### :clipboard:Survey Form
+### :clipboard: Survey Form
 
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
@@ -30,7 +30,7 @@ A collection of projects completed while learning HTML and CSS
   - Inside the form element, you are presented with a `textarea` for additional comments
   - Inside the form element, you are presented with a button with `id` of `submit` to submit all the inputs
 
-### :saluting_face:Tribute Page
+### :saluting_face: Tribute Page
 
 **Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
