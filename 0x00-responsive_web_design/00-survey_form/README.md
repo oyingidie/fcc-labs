@@ -15,7 +15,7 @@ A responsive survey form for a food delivery service, built with HTML and CSS. I
 ### :hammer_and_wrench: Technologies Used
 
 - **HTML5** for structure
-- **CSS3** for styling and
+- **CSS3** for styling and layout
 - **Google Fonts** for typography
 
 ### :file_folder: Project Structure
