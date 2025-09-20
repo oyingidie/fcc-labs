@@ -4,4 +4,4 @@ A collection of projects completed while via [freeCodeCamp](https://www.freecode
 
   - Responsive Web Design
   - JavaScript Algorithms & Data Structures
-  - Technical Documentation Page
+  - Front-End Development Libraries
