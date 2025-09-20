@@ -122,10 +122,12 @@ Roman numerals are based on seven symbols and can be written using various combi
 Here you'll build a cash register app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer. You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
 
 > <sub>**Hint:** Your application should show different messages depending on the price of the item, the amount of cash provided by the customer, and the amount of cash in the drawer:</sub>
-
+>
 > - <sub>`"Status: INSUFFICIENT_FUNDS"`: if `cash-in-drawer` is less than the change due, or if you cannot return the exact change.
 > - <sub>`"Status: CLOSED"`: if `cash-in-drawer` is equal to the change due.
 > - <sub>`"Status: OPEN"`: if `cash-in-drawer` is greater than the change due and you can return change, with the change due in coins and bills sorted in highest to lowest order.</sub>
+
+<br>
 
 |Currency Unit      |            Amount|
 |:-----------------:|:----------------:|
@@ -155,3 +157,32 @@ Here you'll build a cash register app that will return change to the customer ba
 - When `price` is `19.5`, the value in the `#cash` element is `20`, `cid` is `[["PENNY", 0.5], ["NICKEL", 0], ["DIME", 0], ["QUARTER", 0], ["ONE", 0], ["FIVE", 0], ["TEN", 0], ["TWENTY", 0], ["ONE HUNDRED", 0]]`, and the `#purchase-btn` element is clicked, the value in the `#change-due` element should be `"Status: CLOSED PENNY: $0.5"`
 
 ---
+
+### :unicorn::video_game: RPG Creature Search App
+
+In this project, you'll build an app that will search for creatures from an RPG game by name or ID and display the results to the user. To retrieve the creature data and images, you'll use freeCodeCamp's [RPG Creature API](https://rpg-creature-api.freecodecamp.rocks/).
+
+**Objective:** Build an app that is functionally similar to https://rpg-creature-search-app.freecodecamp.rocks
+
+**User Stories:**
+
+- You should have an `input` element with an `id` of `"search-input"`, and is required
+- You should have a `button` element with an `id` of `"search-button"`
+- You should have an element with an `id` of `"creature-name"`
+- You should have an element with an `id` of `"creature-id"`
+- You should have an element with an `id` of `"weight"`
+- You should have an element with an `id` of `"height"`
+- You should have an element with an `id` of `"types"`
+- You should have an element with an `id` of `"hp"`
+- You should have an element with an `id` of `"attack"`
+- You should have an element with an `id` of `"defense"`
+- You should have an element with an `id` of `"special-attack"`
+- You should have an element with an `id` of `"special-defense"`
+- You should have an element with an `id` of `"speed"`
+- When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Creature not found"`
+- When the `#search-input` element contains the value `Pyrolynx` and the `#search-button` element is clicked, the values in the `#creature-name`, `#creature-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PYROLYNX`, `#1` or `1`, `Weight: 42` or `42`, `Height: 32` or `32`, `65`, `80`, `50`, `90`, `55`, and `100`, respectively
+- When the `#search-input` element contains the value `Pyrolynx` and the #search-button element is clicked, a single element should be added within the `#types` element that contains the text `FIRE`. The `#types` element content should be cleared between searches
+- When the `#search-input` element contains the value `2` and the `#search-button` element is clicked, the values in the `#creature-name`, `#creature-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `AQUOROC`, `#2` or `2`, `Weight: 220` or `220`, `Height: 53` or `53`, `85`, `90`, `120`, `60`, `70`, and `40`, respectively
+- When the `#search-input` element contains the value `2` and the `#search-button` element is clicked, two elements should be added within the `#types` element that contain text values `WATER` and `ROCK`, respectively. The `#types` element content should be cleared between searches
+- When the `#search-input` element contains an invalid creature name, and the `#search-button` element is clicked, an alert should appear with the text `"Creature not found"`
+- When the `#search-input` element contains a valid creature ID and the `#search-button` element is clicked, the UI should be filled with the correct data
