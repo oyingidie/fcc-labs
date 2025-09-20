@@ -38,18 +38,18 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/EaYoeJL)
 
-> ##### :jigsaw: How It Works
+> ##### :zap: How It Works
 >
-> 1. User enters a number (between 1 and 3999)
+> 1. User enters a number
 > 2. App checks for validity (i.e. non-empty, ≥1, ≤3999)
 > 3. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
 > 4. Displays result instantly
 
 ### :recycle: Potential Enhancements
 
-- Implement a toggle to provide a low-light, high-contrast user interface. 
-- Integrate a speech-to-text API to support real-time voice input
-- Deploy as a Chrome Extension for seamless, in-browser functionality
+- Implement a parsing algorithm to support reverse conversion from Roman numerals to integers
+- Add animations to provide immediate visual feedback for invalid user inputs
+- Develop a UI toggle to dynamically switch between light and dark themes
 
 ### :paintbrush: Author
 
