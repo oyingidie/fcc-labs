@@ -2,9 +2,6 @@
 
 A collection of projects completed while learning HTML and CSS
 
-  - Survey Form
-  - Tribute Page
-  - Technical Documentation Page
   - Product Landing Page
   - Personal Portfolio Webpage
 
@@ -30,6 +27,8 @@ A collection of projects completed while learning HTML and CSS
   - Inside the form element, you are presented with a `textarea` for additional comments
   - Inside the form element, you are presented with a button with `id` of `submit` to submit all the inputs
 
+---
+
 ### :saluting_face::bouquet: Tribute Page
 
 **Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
@@ -45,6 +44,8 @@ A collection of projects completed while learning HTML and CSS
       > <sub>HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab</sub>
   - Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
   - Your `img` element should be centered within its parent element
+
+---
 
 ### :computer::page_facing_up: Technical Documentation Page
 
