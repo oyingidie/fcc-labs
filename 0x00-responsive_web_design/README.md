@@ -41,8 +41,9 @@ A collection of projects completed while learning HTML and CSS
   - Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
   - You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
   - You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page.
-
+    
       > <sub>HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab</sub>
+    
   - Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
   - Your `img` element should be centered within its parent element
 
@@ -69,4 +70,28 @@ A collection of projects completed while learning HTML and CSS
   - On regular sized devices (laptops, desktops), the element with `id="navbar"` should be shown on the left side of the screen and should always be visible to the user
   - Your technical documentation should use at least one media query
 
-Happy Coding!
+---
+
+### :shopping::shopping_cart: Product Landing Page
+
+**Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
+
+**User Stories:**
+- Your product landing page should have a `header` element with a corresponding `id="header"`
+- You can see an image within the `header` element with a corresponding `id="header-img"` (A logo would make a good image here)
+- Within the `#header` element, you can see a `nav` element with a corresponding `id="nav-bar"`
+- You can see at least three clickable elements inside the `nav` element, each with the class `nav-link`
+- When you click a `.nav-link` button in the `nav` element, you are taken to the corresponding section of the landing page
+- You can watch an embedded product video with `id="video"`
+- Your landing page has a `form` element with a corresponding `id="form"`
+- Within the form, there is an `input` field with `id="email"` where you can enter an email address
+- The `#email` input field should have placeholder text to let users know what the field is for
+- The `#email` input field uses HTML5 validation to confirm that the entered text is an email address
+- Within the form, there is a submit `input` with a corresponding `id="submit"`
+- When you click the `#submit` element, the email is submitted to a static page (use this mock URL: `https://www.freecodecamp.com/email-submit`)
+- The navbar should always be at the top of the viewport
+- Your product landing page should have at least one media query
+- Your product landing page should utilize CSS flexbox at least once
+
+---
+
