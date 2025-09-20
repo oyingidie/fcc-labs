@@ -1,37 +1,56 @@
-### Build a Roman Numeral Converter
-Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. For example:
+## Roman Numeral Checker
 
-|Roman numerals|Arabic numerals|
-|:------------:|:-------------:|
-| M            |          1000 |
-| CM           |           900 |
-| D            |           500 |
-| CD           |           400 |
-| C            |           100 |
-| XC           |            90 |
-| L            |            50 |
-| XL           |            40 |
-| X            |            10 |
-| IX           |             9 |
-| V            |             5 |
-| IV           |             4 |
-| I            |             1 |
+### :book: Overview
 
-**Objective:** Build an app that is functionally similar to https://roman-numeral-converter.freecodecamp.rocks
+A simple, interactive web app that converts numbers (1–3999) into their Roman numeral equivalents. Built with Vanilla JavaScript, it validates input and ensures results align with traditional Roman numeral rules.
 
-**User Stories:**
+### :sparkles: Features
 
-- You should have an `input` element with an `id` of `"number"`
-- You should have a `button` element with an `id` of `"convert-btn"`
-- You should have a `div`, `span` or `p` element with an `id` of `output`
-- When you click on the `#convert-btn` element without entering a value into the `#number` element, the `#output` element should contain the text `"Please enter a valid number"`
-- When the `#number` element contains the number `-1` and the `#convert-btn` element is clicked, the `#output` element should contain the text `"Please enter a number greater than or equal to 1"`
-- When the `#number` element contains the number `4000` or greater and the `#convert-btn` element is clicked, the #output element should contain the text `"Please enter a number less than or equal to 3999"`
-- When the `#number` element contains the number `9` and the `#convert-btn` element is clicked, the #output element should contain the text `"IX"`
-- When the `#number` element contains the number `16` and the `#convert-btn` element is clicked, the #output element should contain the text `"XVI"`
-- When the `#number` element contains the number `649` and the `#convert-btn` element is clicked, the #output element should contain the text `"DCXLIX"`
-- When the `#number` element contains the number `1023` and the `#convert-btn` element is clicked, the #output element should contain the text `"MXXIII"`
-- When the `#number` element contains the number `3999` and the `#convert-btn` element is clicked, the #output element should contain the text `"MMMCMXCIX"`
+- Input validation for out-of-range or invalid values
+- Support for quick checking by pressing the Enter key
+- Clear and responsive result display
 
-Happy Coding!
+### :hammer_and_wrench: Technologies Used
 
+- **HTML5** for page structure
+- **CSS3** for styling and responsive layout
+- **Google Fonts** for typography
+- **JavaScript (Vanilla)** for core conversion logic and interactivity
+
+### :file_folder: Project Structure
+
+```
+fcc-labs/
+|-- ...
+|-- 0x01-javascript_algorithms_and_data_structures/
+|    |-- ...
+|    |-- 01-roman_numeral_converter/
+|    |    |-- roman_numeral.html
+|    |    |-- roman_numeral.css
+|    |    |-- roman_numeral.js
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
+```
+
+### :rocket: Live Demo
+
+View on [CodePen](https://codepen.io/oyingidie/full/EaYoeJL)
+
+> ##### :jigsaw: How It Works
+>
+> 1. User enters a number (between 1 and 3999)
+> 2. App checks for validity (i.e. non-empty, \ge 1, \le 3999)
+> 3. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
+> 4. Displays result instantly
+
+### :recycle: Potential Enhancements
+
+- Implement a toggle to provide a low-light, high-contrast user interface. 
+- Integrate a speech-to-text API to support real-time voice input
+- Deploy as a Chrome Extension for seamless, in-browser functionality
+
+### :paintbrush: Author
+
+Designed by **Oyinkansola Nuel Adebayo**
