@@ -1,19 +1,48 @@
-### Build a Tribute Page
+## Arsène Wenger Tribute Page
 
-**Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+### :book: Description
 
-**User Stories:**
-  - Your tribute page should have a `main` element with a corresponding `id` of `main`, which contains all other elements
-  - You should see an element with an `id` of `title`, which contains a string (i.e. text), that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug")
-  - You should see either a `figure` or a `div` element with an `id` of `img-div`
-  - Within the `#img-div` element, you should see an img element with a corresponding `id="image"`
-  - Within the `#img-div` element, you should see an element with a corresponding `id="img-caption"` that contains textual content describing the image shown in `#img-div`
-  - You should see an element with a corresponding `id="tribute-info"`, which contains textual content describing the subject of the tribute page
-  - You should see an `a` element with a corresponding `id="tribute-link"`, which links to an outside site, that contains additional information about the subject of the tribute page.
+A tribute page dedicated to the legendary Arsène Wenger, one of football's most influential managers. The page presents a timeline of his life and career milestones, supported with quotes from football legends, and links to external resources for further reading.
 
-    HINT: You must give your element an attribute of `target` and set it to `_blank` in order for your link to open in a new tab
-    
-  - Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
-  - Your `img` element should be centered within its parent element
+### :sparkles: Features
 
-Happy Coding!
+- A structured timeline of Arsène Wenger’s personal and professional journey
+- An image section with captions highlighting career achievements
+- Quotes from football icons about Wenger’s impact
+- External link to Wikipedia for extended information
+
+### :hammer_and_wrench: Technologies Used
+
+- **HTML5** for structure
+- **CSS3** for styling and layout
+- **Google Fonts** for typography
+
+### :file_folder: Project Structure
+
+```
+fcc-labs/
+|-- 0x00-responsive_web_design/
+|--  |-- ...
+|    |-- 01-tribute_page/
+|    |    |-- arsene_wenger_tribute.html
+|    |    |-- arsene_wenger_tribute.css
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
+```
+
+### :rocket: How to Run
+
+1. Clone the root repository
+2. Open `arsene_wenger_tribute.html` in your web browser
+
+### :recycle: Future Improvements
+
+- Add animations for timeline events
+- Include a photo gallery of Wenger's career moments
+- Enhance accessibility with ARIA roles
+
+### :paintbrush: Author
+
+Designed by **Oyinkansola Nuel Adebayo**
