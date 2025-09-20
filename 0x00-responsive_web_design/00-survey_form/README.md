@@ -36,7 +36,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
 
-### :recycle: Future Enhancements
+### :recycle: Potential Enhancements
 
 - Add JavaScript for form validation and enhanced interactivity  
 - Connect to a backend to store survey responses  
