@@ -1,8 +1,6 @@
 # Javascript Algorithms & Data Structures
 
-A collection of projects completed while learning Vanilla JavaScript.
-
-- RPG Creature Search App
+A collection of projects completed while learning Vanilla JS.
 
 ### :arrows_counterclockwise::thinking: Palindrome Checker
 
