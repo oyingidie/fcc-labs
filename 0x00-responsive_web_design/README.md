@@ -27,7 +27,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-### :medal_military::bouquet: Tribute Page
+### :medal_military:handshake: Tribute Page
 
 **Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
 
@@ -48,7 +48,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-### :blue_book::computer: Technical Documentation Page
+### :computer::blue_book: Technical Documentation Page
 
 **Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
 
