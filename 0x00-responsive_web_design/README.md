@@ -48,7 +48,7 @@ A collection of projects completed while learning HTML and CSS
   - Your `#image` should use `max-width` and `height` properties to resize responsively, relative to the width of its parent element, without exceeding its original size
   - Your `img` element should be centered within its parent element
 
-### :writing_hand: :laptop: Technical Documentation Page
+### :writing_hand::computer: Technical Documentation Page
 
 **Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
 
