@@ -1,6 +1,6 @@
 ## Arsène Wenger Tribute Page
 
-### :book: Description
+### :book: Overview
 
 A tribute page dedicated to the legendary Arsène Wenger, one of football's most influential managers. The page presents a timeline of his life and career milestones, supported with quotes from football legends, and links to external resources for further reading.
 
@@ -32,10 +32,9 @@ fcc-labs/
 |-- ...
 ```
 
-### :rocket: How to Run
+### :rocket: Live Demo
 
-1. Clone the root repository
-2. Open `arsene_wenger_tribute.html` in your web browser
+View on [CodePen](https://codepen.io/oyingidie/full/WNqzGOr)
 
 ### :recycle: Future Improvements
 
