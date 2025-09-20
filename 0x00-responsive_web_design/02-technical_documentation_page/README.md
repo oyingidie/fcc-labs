@@ -36,7 +36,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/wvLOwvJ)
 
-### :recycle: Future Improvements
+### :recycle: Potential Enhancements
 
 - Expand documentation for more C programming concepts (functions, arrays, pointers, etc.)
 - Implememt a dark mode toggle for improved user experience
