@@ -36,11 +36,11 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/jOgMYQo)
 
-### :recycle: Future Improvements
+### :recycle: Potential Enhancements
 
-- Expand product catalog with dynamic filtering with a shopping cart system for purchases
+- Expand product catalogue with dynamic filtering, with a shopping cart system for purchases
 - Enhance subscription feature with real email integration
-- Integrate a conversational AI assistant for smart, personalised user experience
+- Integrate a conversational AI assistant for a smart, personalised user experience
 
 ### :paintbrush: Author
 
