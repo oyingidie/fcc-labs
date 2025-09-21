@@ -1,4 +1,4 @@
-## US Phone Number Validator
+## Phone Number Validator
 
 ### :book: Overview
 
@@ -47,14 +47,13 @@ View on [CodePen](https://codepen.io/oyingidie/full/RNNvQvm)
 >      - Accepts area codes in `()` or plain digits
 >      - Supports dashes `-` or spaces as separators
 > 
-> 4. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
-> 5. Displays result instantly
+> 3. Displays result as either 'Valid US number' or 'Invalid US number'
 
 ### :recycle: Potential Enhancements
 
-- Implement a parsing algorithm to support reverse conversion from Roman numerals to integers
-- Add animations to provide immediate visual feedback for invalid user inputs
-- Develop a UI toggle to dynamically switch between light and dark themes
+- Implement support for region-specific and international number formats
+- Deploy a one-click copy-to-clipboard functionality for valid results
+- Apply CSS classes dynamically based on input validity to highlight errors as the user types
 
 ### :paintbrush: Author
 
