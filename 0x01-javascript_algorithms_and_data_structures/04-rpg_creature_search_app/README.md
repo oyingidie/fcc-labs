@@ -47,9 +47,7 @@ View on [CodePen](https://codepen.io/oyingidie/full/xbwqBvP)
 
 ### :recycle: Potential Enhancements
 
-- Implement a parsing algorithm to support reverse conversion from Roman numerals to integers
-- Add animations to provide immediate visual feedback for invalid user inputs
-- Develop a UI toggle to dynamically switch between light and dark themes
+- 
 
 ### :paintbrush: Author
 
