@@ -47,9 +47,7 @@ View on [CodePen](https://codepen.io/oyingidie/full/pvjJOxe)
 
 ### :recycle: Potential Enhancements
 
-- Implement support for region-specific and international number formats
-- Deploy a one-click copy-to-clipboard functionality for valid results
-- Apply CSS classes dynamically based on input validity to highlight errors as the user types
+- 
 
 ### :paintbrush: Author
 
