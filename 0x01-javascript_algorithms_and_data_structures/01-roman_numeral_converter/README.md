@@ -38,7 +38,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/EaYoeJL)
 
-> ##### :zap: How It Works
+> #### :zap: How It Works
 >
 > 1. User enters a number
 > 2. App checks for validity (i.e. non-empty, ≥1, ≤3999)
