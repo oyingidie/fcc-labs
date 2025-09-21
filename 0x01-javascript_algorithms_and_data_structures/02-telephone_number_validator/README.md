@@ -25,9 +25,9 @@ fcc-labs/
 |-- 0x01-javascript_algorithms_and_data_structures/
 |    |-- ...
 |    |-- 02-telephone_number_validator/
-|    |    |-- us_number_validator.html
-|    |    |-- us_number_validator.css
-|    |    |-- us_number_validator.js
+|    |    |-- phone_number_validator.html
+|    |    |-- phone_number_validator.css
+|    |    |-- phone_number_validator.js
 |    |    |-- README.md (this document)
 |    |-- ...
 |    |-- README.md
@@ -38,7 +38,7 @@ fcc-labs/
 
 View on [CodePen](https://codepen.io/oyingidie/full/RNNvQvm)
 
-> ##### :zap: How It Works
+> #### :zap: How It Works
 >
 > 1. User enters a phone number
 > 2. App tests input against a regex pattern:
