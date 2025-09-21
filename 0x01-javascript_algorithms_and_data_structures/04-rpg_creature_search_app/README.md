@@ -1,30 +1,56 @@
-## Build an RPG Creature Search App
+## Find an RPG Creature
 
-In this project, you'll build an app that will search for creatures from an RPG game by name or ID and display the results to the user. To retrieve the creature data and images, you'll use freeCodeCamp's [RPG Creature API](https://rpg-creature-api.freecodecamp.rocks/).
+### :book: Overview
 
-**Objective:** Build an app that is functionally similar to https://rpg-creature-search-app.freecodecamp.rocks
+A JavaScript-based creature search app that fetches data from the RPG Creature API and displays details such as stats, types, weight, and height. This project demonstrates API integration, DOM manipulation, and user interaction with search functionality.
 
-**User Stories:**
+### :sparkles: Features
 
-- You should have an `input` element with an `id` of `"search-input"`, and is required
-- You should have a `button` element with an `id` of `"search-button"`
-- You should have an element with an `id` of `"creature-name"`
-- You should have an element with an `id` of `"creature-id"`
-- You should have an element with an `id` of `"weight"`
-- You should have an element with an `id` of `"height"`
-- You should have an element with an `id` of `"types"`
-- You should have an element with an `id` of `"hp"`
-- You should have an element with an `id` of `"attack"`
-- You should have an element with an `id` of `"defense"`
-- You should have an element with an `id` of `"special-attack"`
-- You should have an element with an `id` of `"special-defense"`
-- You should have an element with an `id` of `"speed"`
-- When the `#search-input` element contains the value `Red` and the `#search-button` element is clicked, an alert should appear with the text `"Creature not found"`
-- When the `#search-input` element contains the value `Pyrolynx` and the `#search-button` element is clicked, the values in the `#creature-name`, `#creature-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `PYROLYNX`, `#1` or `1`, `Weight: 42` or `42`, `Height: 32` or `32`, `65`, `80`, `50`, `90`, `55`, and `100`, respectively
-- When the `#search-input` element contains the value `Pyrolynx` and the #search-button element is clicked, a single element should be added within the `#types` element that contains the text `FIRE`. The `#types` element content should be cleared between searches
-- When the `#search-input` element contains the value `2` and the `#search-button` element is clicked, the values in the `#creature-name`, `#creature-id`, `#weight`, `#height`, `#hp`, `#attack`, `#defense`, `#special-attack`, `#special-defense`, and `#speed` elements should be `AQUOROC`, `#2` or `2`, `Weight: 220` or `220`, `Height: 53` or `53`, `85`, `90`, `120`, `60`, `70`, and `40`, respectively
-- When the `#search-input` element contains the value `2` and the `#search-button` element is clicked, two elements should be added within the `#types` element that contain text values `WATER` and `ROCK`, respectively. The `#types` element content should be cleared between searches
-- When the `#search-input` element contains an invalid creature name, and the `#search-button` element is clicked, an alert should appear with the text `"Creature not found"`
-- When the `#search-input` element contains a valid creature ID and the `#search-button` element is clicked, the UI should be filled with the correct data
+- Input validation for out-of-range or invalid values
+- Support for quick checking by pressing the Enter key
+- Clear and responsive result display
 
-Happy Coding!
+### :hammer_and_wrench: Technologies Used
+
+- **HTML5** for structure and UI
+- **CSS3** for styling and responsive design
+- **Google Fonts** for typography
+- **JavaScript (Vanilla)** for DOM manipulation and API integration
+
+### :file_folder: Project Structure
+
+```
+fcc-labs/
+|-- ...
+|-- 0x01-javascript_algorithms_and_data_structures/
+|    |-- ...
+|    |-- 04-rpg_creature_search_app/
+|    |    |-- find_creature.html
+|    |    |-- find_creature.css
+|    |    |-- find_creature.js
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
+```
+
+### :rocket: Live Demo
+
+View on [CodePen](https://codepen.io/oyingidie/full/xbwqBvP)
+
+> #### :zap: How It Works
+>
+> 1. User enters a number
+> 2. App checks for validity (i.e. non-empty, ≥1, ≤3999)
+> 3. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
+> 4. Displays result instantly
+
+### :recycle: Potential Enhancements
+
+- Implement a parsing algorithm to support reverse conversion from Roman numerals to integers
+- Add animations to provide immediate visual feedback for invalid user inputs
+- Develop a UI toggle to dynamically switch between light and dark themes
+
+### :paintbrush: Author
+
+Designed by **Oyinkansola Nuel Adebayo**
