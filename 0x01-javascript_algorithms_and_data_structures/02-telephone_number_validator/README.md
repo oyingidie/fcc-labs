@@ -1,45 +1,61 @@
-### Build a Telephone Number Validator
-**Objective:** Build an app that is functionally similar to https://telephone-number-validator.freecodecamp.rocks
+## US Phone Number Validator
 
-<sub>:bulb: The area code is required. If the country code is also provided, you must confirm that it is 1.</sub>
+### :book: Overview
 
-**User Stories:**
+A lightweight web app that checks if a given input is a valid US phone number. Built with Vanilla JavaScript, it ensures formatting rules are followed and gives instant feedback.
 
-- You should have an `input` element with an `id` of `"user-input"`
-- You should have a `button` element with an `id` of `"check-btn"`
-- You should have a `button` element with an `id` of `"clear-btn"`
-- You should have a `div`, `span` or `p` element with an `id` of `"results-div"`
-- When you click on the `#check-btn` element without entering a value into the `#user-input` element, an alert should appear with the text `"Please provide a phone number"`
-- When you click on the `#clear-btn` element, the content within the `#results-div` element should be removed
-- When the `#user-input` element contains `1 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555-555-5555"`
-- When the `#user-input` element contains `1 (555) 555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 (555) 555-5555"`
-- When the `#user-input` element contains `5555555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 5555555555"`
-- When the `#user-input` element contains `555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 555-555-5555"`
-- When the `#user-input` element contains `(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: (555)555-5555"`
-- When the `#user-input` element contains `1(555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1(555)555-5555"`
-- When the `#user-input` element contains `555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555-5555"`
-- When the `#user-input` element contains `5555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 5555555"`
-- When the `#user-input` element contains `1 555)555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 1 555)555-5555"`
-- When the `#user-input` element contains `1 555 555 5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 555 555 5555"`
-- When the `#user-input` element contains `1 456 789 4444` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: 1 456 789 4444"`
-- When `#user-input` contains `123**&!!asdf#` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: 123**&!!asdf#"`
-- When the `#user-input` element contains `55555555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55555555"`
-- When the `#user-input` element contains `(6054756961)` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (6054756961)"`
-- When the `#user-input` element contains `2 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 (757) 622-7382"`
-- When the `#user-input` element contains `0 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 0 (757) 622-7382"`
-- When the `#user-input` element contains `-1 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: -1 (757) 622-7382"`
-- When the `#user-input` element contains `2 757 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2 757 622-7382"`
-- When the `#user-input` element contains `10 (757) 622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 10 (757) 622-7382"`
-- When the `#user-input` element contains `27576227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 27576227382"`
-- When the `#user-input` element contains `(275)76227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (275)76227382"`
-- When the `#user-input` element contains `2(757)6227382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)6227382"`
-- When the `#user-input` element contains `2(757)622-7382` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 2(757)622-7382"`
-- When the `#user-input` element contains `555)-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 555)-555-5555"`
-- When the `#user-input` element contains `(555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: (555-555-5555"`
-- When `#user-input` contains `(555)5(55?)-5555` and `#check-btn` is clicked, `#results-div` should contain the text `"Invalid US number: (555)5(55?)-5555"`
-- When the `#user-input` element contains `55 55-55-555-5` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 55 55-55-555-5"`
-- When the `#user-input` element contains `11 555-555-5555` and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: 11 555-555-5555"`
-- When the `#user-input` element contains a valid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Valid US number: "` followed by the number
-- When the `#user-input` element contains an invalid US number and the `#check-btn` element is clicked, the `#results-div` element should contain the text `"Invalid US number: "` followed by the number
+### :sparkles: Features
 
-Happy Coding!
+- Validates phone numbers based on multiple US formats
+- Support for quick checking by pressing the Enter key
+- Clear button to reset results 
+
+### :hammer_and_wrench: Technologies Used
+
+- **HTML5** for page structure
+- **CSS3** for styling and responsive layout
+- **Google Fonts** for typography
+- **JavaScript (Vanilla)** for validation logic and interactivity
+
+### :file_folder: Project Structure
+
+```
+fcc-labs/
+|-- ...
+|-- 0x01-javascript_algorithms_and_data_structures/
+|    |-- ...
+|    |-- 02-telephone_number_validator/
+|    |    |-- us_number_validator.html
+|    |    |-- us_number_validator.css
+|    |    |-- us_number_validator.js
+|    |    |-- README.md (this document)
+|    |-- ...
+|    |-- README.md
+|-- ...
+```
+
+### :rocket: Live Demo
+
+View on [CodePen](https://codepen.io/oyingidie/full/RNNvQvm)
+
+> ##### :zap: How It Works
+>
+> 1. User enters a phone number
+> 2. App tests input against a regex pattern:
+>
+>      - Allows optional country code `1`
+>      - Accepts area codes in `()` or plain digits
+>      - Supports dashes `-` or spaces as separators
+> 
+> 4. Uses a conversion chart (M, CM, D, CD, C, XC, L, XL, X, IX, V, IV, I) to build the Roman numeral
+> 5. Displays result instantly
+
+### :recycle: Potential Enhancements
+
+- Implement a parsing algorithm to support reverse conversion from Roman numerals to integers
+- Add animations to provide immediate visual feedback for invalid user inputs
+- Develop a UI toggle to dynamically switch between light and dark themes
+
+### :paintbrush: Author
+
+Designed by **Oyinkansola Nuel Adebayo**
