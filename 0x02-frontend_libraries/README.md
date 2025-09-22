@@ -9,6 +9,8 @@ A collection of projects completed while learning some popular front-end framewo
 > Use whichever libraries or APIs you need.<br>
 > You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery.
 
+<br>
+
 **User Stories:**
 
 - I can see a wrapper element with a corresponding `id="quote-box"`
@@ -23,7 +25,11 @@ A collection of projects completed while learning some popular front-end framewo
 - I can tweet the current quote by clicking on the `#tweet-quote` `a` element. This `a` element should include the `"twitter.com/intent/tweet"` path in its `href` attribute to tweet the current quote.
 - The `#quote-box` wrapper element should be horizontally centered. Please run tests with browser's zoom level at 100% and page maximized.
 
+<br>
+
 > <sub>**Note:** Twitter does not allow links to be loaded in an iframe. Try using the `target="_blank"` or `target="_top"` attribute on the `#tweet-quote` element if your tweet won't load. `target="_top"` will replace the current tab so make sure your work is saved.</sub>
+
+<br>
 
 ---
 
