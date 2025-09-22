@@ -3,10 +3,10 @@
 A collection of projects completed while learning some popular front-end frameworks and libraries.
 
 > #### :information_source: Info
-> *Use whichever libraries or APIs you need.* <br>
-> *You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery.*
+> Use whichever libraries or APIs you need.<br>
+> You can use any mix of HTML, JavaScript, CSS, Bootstrap, SASS, React, Redux, and jQuery.
 >
-> *Put this `<script>` tag into the body of your `.html file`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>` to run the tests.*
+> Put this `<script>` tag into the body of your `.html file`: `<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>` to run the tests.
 
 ### 00. :brain::speech_balloon: Random Quote Machine
 
