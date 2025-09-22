@@ -1,0 +1,37 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cash Register</title>
+  <link rel="stylesheet" href="./cash_register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <h1>Cash Register</h1>
+    <div class="cart-and-drawer-display">
+      <p>Cost of Item(s) in Customer's Cart: <span id="price-display"></span></p>
+      <p>Cash-in-Drawer: <span id="cid-display"></span></p>
+    </div>
+    <div class="transaction-screen">
+      <label for="cash">Enter cash amount:</label>
+      <input id="cash" type="number" value="0" step="0.01">
+      <button id="purchase-btn">Purchase</button>
+      <button id="clear-btn">Clear</button>
+    </div>
+    <dialog id="confirm-change-dialog">
+      <form method="dialog">
+        <div class="change-display">
+          <p id="change-due"></p>
+          <button id="complete-btn">Complete</button>
+        </div>
+      </form>
+    </dialog>
+  </main>
+  <script src="./cash_register.js"></script>
+</body>
+
+</html>
