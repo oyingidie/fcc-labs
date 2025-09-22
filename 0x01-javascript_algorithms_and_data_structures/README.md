@@ -1,8 +1,8 @@
 # Javascript Algorithms & Data Structures
 
-A collection of projects completed while learning Vanilla JS.
+A collection of projects completed while learning Vanilla JS and algorithmic thinking.
 
-### :arrows_counterclockwise::thinking: Palindrome Checker
+### 00. :arrows_counterclockwise::thinking: Palindrome Checker
 
 **Objective:** Build an app that is functionally similar to https://palindrome-checker.freecodecamp.rocks
 
@@ -30,7 +30,7 @@ A collection of projects completed while learning Vanilla JS.
 
 ---
 
-### :classical_building::1234: Roman Numeral Converter
+### 01. :classical_building::1234: Roman Numeral Converter
 
 Roman numerals are based on seven symbols and can be written using various combinations to represent Arabic numerals. For example:
 
@@ -68,7 +68,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 
 ---
 
-### :mag::iphone: Telephone Number Validator
+### 02. :mag::iphone: Telephone Number Validator
 
 **Objective:** Build an app that is functionally similar to https://telephone-number-validator.freecodecamp.rocks
 
@@ -115,7 +115,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 
 ---
 
-### :moneybag::receipt: Cash Register
+### 03. :moneybag::receipt: Cash Register
 
 Here you'll build a cash register app that will return change to the customer based on the price of the item, the amount of cash provided by the customer, and the amount of cash in the cash drawer. You'll also need to show different messages to the user in different scenarios, such as when the customer provides too little cash or when the cash drawer doesn't have enough to issue the correct change.
 
@@ -156,7 +156,7 @@ Here you'll build a cash register app that will return change to the customer ba
 
 ---
 
-### :unicorn::video_game: RPG Creature Search App
+### 04. :unicorn::video_game: RPG Creature Search App
 
 In this project, you'll build an app that will search for creatures from an RPG game by name or ID and display the results to the user. To retrieve the creature data and images, you'll use freeCodeCamp's [RPG Creature API](https://rpg-creature-api.freecodecamp.rocks/).
 
