@@ -25,7 +25,7 @@ A collection of projects completed while learning how to build webpages.
 - Inside the form element, you are presented with a `textarea` for additional comments
 - Inside the form element, you are presented with a button with `id` of `submit` to submit all the inputs
 
----
+___
 
 ### 01. :medal_military::handshake: Tribute Page
 
