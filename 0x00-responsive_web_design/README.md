@@ -2,7 +2,7 @@
 
 A collection of projects completed while learning how to build webpages.
 
-### 0. :clipboard::bar_chart: Survey Form
+### #0. :clipboard::bar_chart: Survey Form
 
 **Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
 
