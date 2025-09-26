@@ -96,7 +96,7 @@ A collection of projects completed while learning how to build webpages.
 
 ---
 
-### 04. :artist::briefcase: Personal Portfolio Webpage
+### 04. :art::briefcase: Personal Portfolio Webpage
 
 **Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
 
