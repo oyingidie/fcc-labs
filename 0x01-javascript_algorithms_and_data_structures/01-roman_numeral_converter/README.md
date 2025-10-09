@@ -14,7 +14,6 @@ A simple, interactive web app that converts numbers (1–3999) into their Roman 
 
 - **HTML5** for page structure
 - **CSS3** for styling and responsive layout
-- **Google Fonts** for typography
 - **JavaScript (Vanilla)** for core conversion logic and interactivity
 
 ### :file_folder: Project Structure
