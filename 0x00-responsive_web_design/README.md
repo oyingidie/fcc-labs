@@ -4,7 +4,7 @@ A collection of projects completed while learning how to build webpages.
 
 ### 00. :clipboard::bar_chart: Survey Form
 
-**Objective:** Build an app that is functionally similar to https://survey-form.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://survey-form.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -29,7 +29,7 @@ A collection of projects completed while learning how to build webpages.
 
 ### 01. :medal_military::handshake: Tribute Page
 
-**Objective:** Build an app that is functionally similar to https://tribute-page.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://tribute-page.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -50,7 +50,7 @@ A collection of projects completed while learning how to build webpages.
 
 ### 02. :computer::blue_book: Technical Documentation Page
 
-**Objective:** Build an app that is functionally similar to https://technical-documentation-page.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://technical-documentation-page.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -74,7 +74,7 @@ A collection of projects completed while learning how to build webpages.
 
 ### 03. :shopping::shopping_cart: Product Landing Page
 
-**Objective:** Build an app that is functionally similar to https://product-landing-page.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://product-landing-page.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -98,7 +98,7 @@ A collection of projects completed while learning how to build webpages.
 
 ### 04. :art::briefcase: Personal Portfolio Webpage
 
-**Objective:** Build an app that is functionally similar to https://personal-portfolio.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://personal-portfolio.freecodecamp.rocks).
 
 **User Stories:**
 
