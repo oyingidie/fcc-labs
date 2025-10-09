@@ -14,7 +14,6 @@ A JavaScript-based creature search app that fetches data from the RPG Creature A
 
 - **HTML5** for structure and UI
 - **CSS3** for styling and responsive design
-- **Google Fonts** for typography
 - **JavaScript (Vanilla)** for DOM manipulation and API integration
 
 ### :file_folder: Project Structure
