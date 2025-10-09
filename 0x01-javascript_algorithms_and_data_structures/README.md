@@ -4,7 +4,7 @@ A collection of projects completed while learning Vanilla JS and algorithmic thi
 
 ### 00. :arrows_counterclockwise::thinking: Palindrome Checker
 
-**Objective:** Build an app that is functionally similar to https://palindrome-checker.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://palindrome-checker.freecodecamp.rocks).
 
 > <sub>**Hint:** Remove all non-alphanumeric characters (punctuation, spaces, and symbols) and turn everything into the same case (lower or upper case) to check for palindromes.</sub>
 
@@ -50,7 +50,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 | IV           |             4 |
 | I            |             1 |
 
-**Objective:** Build an app that is functionally similar to https://roman-numeral-converter.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://roman-numeral-converter.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -70,7 +70,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 
 ### 02. :mag::iphone: Telephone Number Validator
 
-**Objective:** Build an app that is functionally similar to https://telephone-number-validator.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://telephone-number-validator.freecodecamp.rocks).
 
 > <sub>**Hint:** The area code is required. If the country code is also provided, you must confirm that it is 1.</sub>
 
@@ -139,7 +139,7 @@ Here you'll build a cash register app that will return change to the customer ba
 |Twenty Dollars     |      $20 (TWENTY)|
 |One Hundred Dollars|$100 (ONE HUNDRED)|
 
-**Objective:** Build an app that is functionally similar to https://cash-register.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://cash-register.freecodecamp.rocks).
 
 **User Stories:**
 
@@ -160,7 +160,7 @@ Here you'll build a cash register app that will return change to the customer ba
 
 In this project, you'll build an app that will search for creatures from an RPG game by name or ID and display the results to the user. To retrieve the creature data and images, you'll use freeCodeCamp's [RPG Creature API](https://rpg-creature-api.freecodecamp.rocks/).
 
-**Objective:** Build an app that is functionally similar to https://rpg-creature-search-app.freecodecamp.rocks
+**Objective:** Build an app that is functionally similar to [this](https://rpg-creature-search-app.freecodecamp.rocks).
 
 **User Stories:**
 
