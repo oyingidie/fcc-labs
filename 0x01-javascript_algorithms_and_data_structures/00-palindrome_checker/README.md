@@ -51,4 +51,4 @@ View on [CodePen](https://codepen.io/oyingidie/full/MWNGENa)
 
 ### :paintbrush: Author
 
-Designed by **Oyinkansola Nuel Adebayo**
+[Oyinkansola Adebayo](https://github.com/oyingidie)
