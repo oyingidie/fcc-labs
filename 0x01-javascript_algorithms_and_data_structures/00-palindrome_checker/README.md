@@ -14,7 +14,6 @@ A lightweight, fast, and free web app to check if a word, phrase, or sentence is
 
 - **HTML5** for page structure
 - **CSS3** for minimal responsive styling
-- **Google Fonts** for typography
 - **JavaScript (Vanilla)** for core logic and interactivity
 
 ### :file_folder: Project Structure
