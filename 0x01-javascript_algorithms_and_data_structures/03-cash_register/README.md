@@ -15,7 +15,6 @@ A JavaScript-based cash register simulator that calculates change, validates tra
 
 - **HTML5** for page structure and UI
 - **CSS3** for styling and responsive layout
-- **Google Fonts** for typography
 - **JavaScript (Vanilla)** for core logic and change calculation
 
 ### :file_folder: Project Structure
