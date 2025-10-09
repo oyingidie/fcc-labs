@@ -50,4 +50,4 @@ View on [CodePen](https://codepen.io/oyingidie/full/pvjJOxe)
 
 ### :paintbrush: Author
 
-Designed by **Oyinkansola Nuel Adebayo**
+[Oyinkansola Adebayo](https://github.com/oyingidie)
