@@ -44,4 +44,4 @@ View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
 
 ### :paintbrush: Author
 
-Designed by **Oyinkansola Nuel Adebayo**
+Oyinkansola "GidiE" Adebayo
