@@ -14,7 +14,6 @@ A lightweight web app that checks if a given input is a valid US phone number. B
 
 - **HTML5** for page structure
 - **CSS3** for styling and responsive layout
-- **Google Fonts** for typography
 - **JavaScript (Vanilla)** for validation logic and interactivity
 
 ### :file_folder: Project Structure
