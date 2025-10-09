@@ -44,4 +44,4 @@ View on [CodePen](https://codepen.io/oyingidie/full/bGPaNBg)
 
 ### :paintbrush: Author
 
-Oyinkansola Adebayo
+[Oyinkansola Adebayo](https://github.com/oyingidie)
